@@ -27,11 +27,7 @@
 		<p>I am also pursuing a degree in Digital Media Studies. The reasons are similar to those for my another degree, BA in Computer Science. Besides, DMS program can offer me some opportunities in practicing and desiging products.</p>
 
 		<h2>Music</h2>
-		<p>I love listening to the music, playing instruments and singsing. I like Cocteau Twins and Sophie Zelmani.</p>
-		<h3>Guitar</h3>
-		<p>I played string instruments before,and I started to learn guitar and western music since I entered college. I am not so professional in it, but I will keep practicing and embracing suggestions from other guitar players.</p>
-		<h3>Singing</h3>
-		<p>Singing is kinda a way for me to "waste" time. I almost sing everyday and joined the concert choir in U of R.</p>
+		<p>I love listening to the music, playing instruments and singsing. I like Cocteau Twins and Sophie Zelmani. I played string instruments before,and I started to learn guitar and western music since I entered college. I am not so professional in it, but I will keep practicing and embracing suggestions from other guitar players. Singing is kinda a way for me to "waste" time. I almost sing everyday and joined the concert choir in U of R.</p>
 
 		<h2>Languages</h2>
 		<p>I am interested in learning different languages. I speak Mandarin, English, a little bit Japanese. I am also learning German and Cantonese myself. I found different grammar structures interesting and will explore as much as possible.</p>
