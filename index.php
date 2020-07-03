@@ -11,7 +11,7 @@
 <body>
 	<?php include "inc/nav.php"; ?>
 	<header>
-		<h1>Cityteam: London</h1>
+		<h1>City-team: London</h1>
 		<section>
 			<p>Information Architect: Qi Miao</p>
 			<p>Visual Designer: Elise Frelinger</p>
