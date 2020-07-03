@@ -10,6 +10,8 @@
 
 
 <body>
+	<?php include "inc/nav.php"; ?>
+	
 	<header>
 		<h1>Bo Wu</h1>
 		<div>Major in Computer Science</div>

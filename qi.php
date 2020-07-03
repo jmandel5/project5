@@ -9,6 +9,7 @@
 
 
 <body>
+	<?php include "inc/nav.php"; ?>
 	<header>
 
 		<h1>Iris Qi Miao</h1>

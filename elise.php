@@ -10,6 +10,7 @@
 
 
 <body>
+	<?php include "inc/nav.php"; ?>
 	<header>
 
 		<h1>Elise Frelinger</h1>
