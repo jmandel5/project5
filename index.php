@@ -13,7 +13,7 @@
 	<header>
 		<h1>Cityteam: London</h1>
 		<section>
-			<p>Information Architect: Iris Qi Miao</p>
+			<p>Information Architect: Qi Miao</p>
 			<p>Visual Designer: Elise Frelinger</p>
 			<p>Technician: Bo Wu</p>
 
@@ -21,7 +21,7 @@
 	</header>
 
 	<article>
-		<h2>Iris Qi Miao - Information Architect</h2>
+		<h2>Qi Miao - Information Architect</h2>
 		<img src="images/pic.jpg" alt="Qi's photo">
 		<div>Major in Computer Science</div>
 		<div>Major in Digital Media Studies</div>

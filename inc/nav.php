@@ -1,8 +1,8 @@
 <nav>
 		<ul>
 			<li><a href="index.php">Home</a></li>
-			<li><a href="bo.php">Bo</a></li>
-			<li><a href="qi.php">Qi</a></li>
-			<li><a href="elise.php">Elise</a></li>
+			<li><a href="bo.php">Bo Wu</a></li>
+			<li><a href="qi.php">Qi Miao</a></li>
+			<li><a href="elise.php">Elise Frelinger</a></li>
 		</ul>
 	</nav>
