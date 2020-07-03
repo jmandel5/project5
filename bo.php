@@ -40,7 +40,7 @@
 					<ul><li>Bachelor of Computer Science at Saint Louis University</li></ul>
 				</li>
 				<li>
-					2020 - Now:
+					2020-Now:
 					<ul><li>Bachelor of Computer Science at University of Rochester</li></ul>
 				</li>
 			</ol>

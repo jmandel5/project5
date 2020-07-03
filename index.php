@@ -25,15 +25,18 @@
 		<img src="images/pic.jpg" alt="Qi's photo">
 		<div>Major in Computer Science</div>
 		<div>Major in Digital Media Studies</div>
+		<a href = "http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
 
 		<h2>Elise Frelinger - Visual Designer</h2>
 		<div>Major in Film & Media Studies</div>
 		<div>Minor in Brain & Cognitive Science, History, and Computer Science</div>
+		<a href = "http://csc174.org/lab01/efreling/lab01/index.php">View Personal Website</a>
 
 		<h2>Bo Wu - Technician</h2>
 		<img src="images/bo-selfie.jpg" alt="Bo's photo">
 		<div>Rising Junior</div>
 		<div>Major in Computer Science</div>
+		<a href = "http://csc174.org/lab01/bwu18/index.php">View Personal Website</a>
 
 
 	</article>
