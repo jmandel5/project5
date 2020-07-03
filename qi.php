@@ -12,7 +12,7 @@
 	<?php include "inc/nav.php"; ?>
 	<header>
 
-		<h1>Iris Qi Miao</h1>
+		<h1>Qi Miao</h1>
 		<div>Major in Computer Science</div>
 		<div>Major in Digital Media Studies</div>
 
