@@ -8,19 +8,32 @@
     position: fixed;
     z-index: 5;
 }    
+@media (max-width: 600px){
+    .menu {
+        position: initial;
+        height: initial;
+    }
+}
 
 
 .menu ul {
     display: flex;
     justify-content: center;
-    /*padding: 2% 0px 2% 0px;*/
+    
     padding: 0;
+
+    list-style-type: none;
+}
+@media (max-width: 600px){
+    .menu ul {
+        display: block;
+        margin: 0;
+    }
 }
 
 
+
 .menu li {
-    display: block;
-    border: 2px dotted #ffffff;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -33,6 +46,8 @@
 }
 
 .menu a {
+    border: 2px dotted #ffffff;
+
     text-decoration: none;
     display: block;
     color: #D9CFC0;
@@ -47,5 +62,5 @@
 
 .menu a:hover {
     background-color: indigo;
-    border: 0px;
+    border: 0px solid;
 }

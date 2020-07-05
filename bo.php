@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+include "inc/html-top.php";
+?>
 
-
-<head>
-	<meta charset="utf-8">
-	<title>Project 1</title>
-	<link rel="stylesheet" href="css/nav.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet"
-  	href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 
 
@@ -85,7 +78,9 @@
 		</footer>
 
 		</div> <!-- center container -->
-	<div><!--  background container -->
+	</div><!--  background container -->
+
+<?php include "inc/scripts.php" ?>
 </body>
 
 

@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+$customCSS = "<link rel='stylesheet' href='css/home.css'> ";
 
+include "inc/html-top.php";
 
-<head>
-	<meta charset="utf-8">
-	<title>Project 1</title>
-	<link rel="stylesheet" href="css/nav.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/home.css">
-	<link rel="stylesheet"
-  	href="https://fonts.googleapis.com/css?family=Montserrat">
+?>
+
 </head>
 
 
@@ -21,7 +16,6 @@
 			<p>Information Architect: Qi Miao</p>
 			<p>Visual Designer: Elise Frelinger</p>
 			<p>Technician: Bo Wu</p>
-
 		</section>
 	</header>
 
@@ -60,6 +54,9 @@
 		
 		</div><!-- used for center container -->
 	</div>
+
+
+<?php include "inc/scripts.php" ?>
 </body>
 
 

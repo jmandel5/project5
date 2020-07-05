@@ -3,6 +3,12 @@
 header {
 	padding-top: 8%;
 }
+@media (max-width: 600px){
+    header {
+        padding-top: 30px;
+    }
+}
+
 
 .background article {
     /* grid specifications w/in article */
@@ -13,7 +19,11 @@ header {
     background: none;
     align-content: center;
  }
-
+@media (max-width: 600px){
+    .background article {
+        display: block;
+    }
+}
 
 
 .column_1 {
@@ -22,12 +32,22 @@ header {
 	grid-column: 1/2;
 	background-image: url(../images/jean.jpg);
 }
+@media (max-width: 600px){
+    .column_1{
+        margin-bottom: 50px;
+    }
+}
 
 .column_2 {
 	text-align: center;
 
 	grid-column: 2/3;
     background-image: url(../images/jean.jpg);
+}
+@media (max-width: 600px){
+    .column_2{
+        margin-bottom: 50px;
+    }
 }
 
 .column_3 {
