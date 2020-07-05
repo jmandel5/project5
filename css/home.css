@@ -4,7 +4,19 @@
 	display: grid;
 } */
 
-
+.content article {
+    /* grid specifications */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    max-width: 1000px;
+    display: grid;
+    margin: auto;
+    margin-left: 0;
+    grid-gap: 40px;
+    background: none;
+    align-content: center;
+  }
 
 footer{
 	grid-column: 1/2;
@@ -23,12 +35,17 @@ footer{
     background-color: indigo;
 }
 
-img {
+.column_1 {
 	grid-column: 1/2;
-
-	display: inline-block;
+	background-image: url(../images/jean.jpg);
 }
 
-.major, .content a {
+.column_2 {
 	grid-column: 2/3;
+    background-image: url(../images/jean.jpg);
+}
+
+.column_3 {
+	grid-column: 3/4;
+    background-image: url(../images/jean.jpg);
 }

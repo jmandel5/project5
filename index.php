@@ -26,22 +26,28 @@
 	</header>
 	<div class="content">
 	<article>
-		<h2>Qi Miao - Information Architect</h2>
-		<img src="images/pic.jpg" alt="Qi's photo">
-		<div class="major">Major in Computer Science</div>
-		<div class="major">Major in Digital Media Studies</div>
-		<a href = "http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
+		<div class="column_1">
+			<h2>Qi Miao - Information Architect</h2>
+			<img src="images/pic.jpg" alt="Qi's photo">
+			<div class="major">Major in Computer Science</div>
+			<div class="major">Major in Digital Media Studies</div>
+			<a href = "http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
+		</div>
 
-		<h2>Elise Frelinger - Visual Designer</h2>
-		<div class="major">Major in Film & Media Studies</div>
-		<div class="major">Minor in Brain & Cognitive Science, History, and Computer Science</div>
-		<a href = "http://csc174.org/lab01/efreling/lab01/index.php">View Personal Website</a>
+		<div class="column_2">
+			<h2>Elise Frelinger - Visual Designer</h2>
+			<div class="major">Major in Film & Media Studies</div>
+			<div class="major">Minor in Brain & Cognitive Science, History, and Computer Science</div>
+			<a href = "http://csc174.org/lab01/efreling/lab01/index.php">View Personal Website</a>
+		</div>
 
-		<h2>Bo Wu - Technician</h2>
-		<img src="images/bo-selfie.jpg" alt="Bo's photo">
-		<div class="major">Rising Junior</div>
-		<div class="major">Major in Computer Science</div>
-		<a href = "http://csc174.org/lab01/bwu18/index.php">View Personal Website</a>
+		<div class="column_3">
+			<h2>Bo Wu - Technician</h2>
+			<img src="images/bo-selfie.jpg" alt="Bo's photo">
+			<div class="major">Rising Junior</div>
+			<div class="major">Major in Computer Science</div>
+			<a href = "http://csc174.org/lab01/bwu18/index.php">View Personal Website</a>
+		</div>
 
 
 	</article>
