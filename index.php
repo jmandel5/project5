@@ -36,6 +36,7 @@
 
 		<div class="column_2">
 			<h2>Elise Frelinger - Visual Designer</h2>
+            <img src="images/elise_picture.jpg" alt="Elise's photo">
 			<div class="major">Major in Film & Media Studies</div>
 			<div class="major">Minor in Brain & Cognitive Science, History, and Computer Science</div>
 			<a href = "http://csc174.org/lab01/efreling/lab01/index.php">View Personal Website</a>
