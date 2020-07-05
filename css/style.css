@@ -6,7 +6,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 60px;
 
 
     position: absolute;
@@ -23,7 +23,6 @@
     border-top: 1px solid gray;
     line-height: 1.5;
 
-
 }
 
 .content article {
@@ -36,6 +35,12 @@
     font-family: 'Montserrat', sans-serif;
     /* instructions from css-tricks.com */
     transform: rotate(-3deg);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: silver;
+
 }
 
 
@@ -53,6 +58,20 @@ header {
 
 }
 
+.content, header {
+    /* max width of border */
+    box-sizing: border-box;
+    max-width: 1500px;
+    width: 100%; 
+}
+
+
+header div {
+    line-height: 2;
+    font-size: 18px;
+}
+
+
 h2 {
 	font-style: italic;
 }
@@ -63,15 +82,9 @@ footer {
     font-style: italic;
     color: silver;
     font-size: 15px;
+    margin-bottom: -20px;
 }
 
-header {
-    box-sizing: border-box;
-}
-.content, header {
-    /* max width of border */
-    box-sizing: border-box;
-    max-width: 1500px;
-    width: 100%;
-}
+
+
 

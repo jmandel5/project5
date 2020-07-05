@@ -7,10 +7,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     max-width: 1000px;
-    display: grid;
     margin: auto;
     margin-left: 0;
-    grid-gap: 20%;
+    grid-gap: 18%;
     background: none;
     align-content: center;
   }
