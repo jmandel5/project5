@@ -1,5 +1,17 @@
 
+
 .content {
+    /* grid specifications */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    max-width: 1000px;
+    display: grid;
+    margin: auto;
+    margin-left: 0;
+    grid-gap: 60px;
+
+
     position: absolute;
     /* instruction of z-index from 
     freecodecamp.org */
@@ -9,13 +21,25 @@
     color: white;
     font-family: Arial, "Times New Roman", sans-serif;
     margin-top: 35%;
-    padding: 2%;
+    padding: 4%;
     margin-right: -1%;
     margin-left: -1%;
     border-top: 1px solid gray;
+    line-height: 1.5;
 
 }
 
+.content article {
+        grid-column: 1/2;
+
+}
+
+.content aside {
+    color: silver;
+    font-family: 'Montserrat', sans-serif;
+    /* instructions from css-tricks.com */
+    transform: rotate(-3deg);
+}
 
 
 header {
@@ -32,19 +56,6 @@ header {
     position: fixed;
     width: 100%; 
     z-index: 2;
-
-
-
-}
-
-.container {
-	display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 90%;
-    max-width: 1000px;
-    display: grid;
-    margin: auto;
-    margin-left: 0;
 
 }
 

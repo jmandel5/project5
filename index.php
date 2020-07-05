@@ -7,6 +7,8 @@
 	<title>Project 1</title>
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet"
+  	href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 
 
@@ -21,7 +23,7 @@
 
 		</section>
 	</header>
-	<div class="content">
+	<div class="content" class="home">
 	<article>
 		<h2>Qi Miao - Information Architect</h2>
 		<img src="images/pic.jpg" alt="Qi's photo">
