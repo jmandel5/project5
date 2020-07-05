@@ -20,7 +20,9 @@ body {
 
 
 header {
-    background-color: #4A87A1;
+    /* background-color: #4A87A1; */
+    /* background from wallpapercave.com */
+    background-image: url(../images/bubbles.png); 
     margin: -10px;
     text-align: center;
     padding-top: 1px;
@@ -49,4 +51,9 @@ header {
 
 h2 {
 	font-style: italic;
+}
+
+
+footer {
+    background-image: url(../images/black_marble.jpg); 
 }
