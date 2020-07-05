@@ -5,6 +5,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Project 1</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 
@@ -18,6 +20,8 @@
 
 
 	</header>
+
+	<div class="content">
 
 	<article>
 		<h2>Computer Science</h2>
@@ -65,4 +69,5 @@
 
 
 </body>
+</div>
 </html>

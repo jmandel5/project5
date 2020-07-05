@@ -5,6 +5,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Project 1</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 
@@ -19,7 +21,7 @@
 
 		</section>
 	</header>
-
+	<div class="content">
 	<article>
 		<h2>Qi Miao - Information Architect</h2>
 		<img src="images/pic.jpg" alt="Qi's photo">
@@ -47,4 +49,6 @@
 
 
 </body>
+</div>
+
 </html>

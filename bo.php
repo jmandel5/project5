@@ -5,6 +5,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Project 1</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 
@@ -19,7 +21,7 @@
 
 
 	</header>
-
+	<div class="content">
 	<article>
 		<h2>Self Introduction</h2>
 			<p>I am a rising junior student in University of Rochester. From 2017 to 2019, I was a undergradate student at Saint Louis University in Missouri. In 2020 Spring, I transfered to University of Rochester (UR) and keep pursuing my Bachelor degree of Computer Science. </p>
@@ -82,11 +84,15 @@
 
 	</aside>
 
+
+
 	<footer>
 		<p>CSC 174:Advanced Front-end Web - Project 1</p>
 	</footer>
 
 
 </body>
+
+</div>
 </html>
 

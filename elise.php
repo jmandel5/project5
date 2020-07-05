@@ -5,6 +5,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Project 1</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 
@@ -19,7 +22,7 @@
 		
 
 	</header>
-
+	<div class="content">
 	<article>
 
 		<h2>Film & Media Studies</h2>
@@ -60,7 +63,7 @@
 	<footer>
 		<p>CSC 174:Advanced Front-end Web - Project 1</p>
 	</footer>
-
+</div>
 
 </body>
 </html>
