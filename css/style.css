@@ -7,7 +7,8 @@ body {
     /* instruction of z-index from 
     freecodecamp.org */
     z-index: 3;
-    background-color: indigo;
+    /* background-color: indigo; */
+    background-image: url(../images/emerald.jpg); 
     color: white;
     font-family: Arial, "Times New Roman", sans-serif;
     margin-top: 35%;
