@@ -10,7 +10,7 @@
     /* instruction of z-index from 
     freecodecamp.org */
     z-index: 3;
-    /* background-color: indigo; */ 
+    /*background from istockphoto.com */
     background-image: url(../images/jean.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -20,7 +20,6 @@
     margin-top: 33%;
     
     margin-right: -8px;
-    /*margin-left: -8px;*/
     border-top: 1px solid gray;
     line-height: 1.5;
 }
@@ -51,7 +50,6 @@
 
 
 header {
-    /* background-color: #4A87A1; */
     /* background from wallpapercave.com */
     background-image: url(../images/bubbles.png); 
 
