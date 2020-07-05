@@ -69,8 +69,10 @@
 header {
     /* background-color: #4A87A1; */
     /* background from wallpapercave.com */
-    background-image: url(../images/bubbles.png); 
-
+    background-image: url(../images/bubbles.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
     text-align: center;
     color: #D9CFC0;
 
