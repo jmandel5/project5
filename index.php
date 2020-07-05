@@ -7,6 +7,7 @@
 	<title>Project 1</title>
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet"
   	href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>

@@ -1,5 +1,6 @@
 /* home page */
 
-.home {
-	justify-content: center;
+.home article {
+	color: red;
+	grid-column: 1/2;
 }
