@@ -63,7 +63,7 @@
 	</aside>
 
 	<footer>
-		<p>CSC 174:Advanced Front-end Web - Project 1</p>
+		<p>CSC 174: Advanced Front-end Web - Project 1</p>
 	</footer>
 
 </body>
