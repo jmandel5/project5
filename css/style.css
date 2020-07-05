@@ -5,10 +5,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
- /*   max-width: 1000px; */
     display: grid;
-    margin: auto;
-    margin-left: 0;
     grid-gap: 40px;
 
 
@@ -16,16 +13,16 @@
     /* instruction of z-index from 
     freecodecamp.org */
     z-index: 3;
-    /* background-color: indigo; */ 
     background-image: url(../images/jean.jpg);
     color: white;
     font-family: Arial, "Times New Roman", sans-serif;
     margin-top: 35%;
     padding: 4%;
     margin-right: -1%;
-    margin-left: -1%;
+    margin-left: -10px;
     border-top: 1px solid gray;
     line-height: 1.5;
+
 
 }
 
@@ -43,19 +40,15 @@
 
 
 header {
-    /* background-color: #4A87A1; */
     /* background from wallpapercave.com */
     background-image: url(../images/bubbles.png); 
-    margin: -10px;
+    margin-left: -10px;
     text-align: center;
     padding-top: 1px;
-    padding-bottom: 50px;
     color: #D9CFC0;
     padding-bottom: 20%;
     padding-top: 10%;
     position: fixed;
-    width: 100%;
- /*   max-width: 1000px; */
     z-index: 2;
 
 }
@@ -72,6 +65,13 @@ footer {
     font-size: 15px;
 }
 
-body {
-    max-width: 1000px;
+header {
+    box-sizing: border-box;
 }
+.content, header {
+    /* max width of border */
+    box-sizing: border-box;
+    max-width: 1500px;
+    width: 100%;
+}
+

@@ -1,9 +1,4 @@
-/* Menu from Qi Miao */
 
-.menu {
-    max-width: 1000px;
-
-}
 
 .menu ul {
     display: flex;
@@ -14,9 +9,13 @@
     position: fixed;
     width: 100%;
     z-index: 5;
-    margin-right: -1%;
-    margin-left: -2%;
+    margin-right: -1px;
+    margin-left: -10px;
     margin-top: -1%;
+
+  /*  box-sizing: content-box;
+    max-width: 1000px; */
+
 
 
 

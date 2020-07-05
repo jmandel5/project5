@@ -1,8 +1,5 @@
 /* home page */
 
-/* body {
-	display: grid;
-} */
 
 .content article {
     /* grid specifications w/in article */
@@ -44,7 +41,7 @@ footer {
 .content a {
 	text-decoration: none;
 	color: silver;
-	border: 1.5px dotted white;
+	border: 0.5px dotted white;
 	padding: 4px;
     color: #D9CFC0;
     background-color: #214B71;
