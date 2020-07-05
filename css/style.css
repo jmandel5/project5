@@ -1,20 +1,18 @@
-body {
-
-}
 
 .content {
     position: absolute;
     /* instruction of z-index from 
     freecodecamp.org */
     z-index: 3;
-    /* background-color: indigo; */
-    background-image: url(../images/emerald.jpg); 
+    /* background-color: indigo; */ 
+    background-image: url(../images/jean.jpg);
     color: white;
     font-family: Arial, "Times New Roman", sans-serif;
     margin-top: 35%;
     padding: 2%;
     margin-right: -1%;
     margin-left: -1%;
+    border-top: 1px solid gray;
 
 }
 
@@ -56,4 +54,11 @@ h2 {
 
 
 footer {
-    background-image: url(../images/leather.jpg); }
+    padding: 2%;
+    width: 100%;
+    padding: 2%;
+    margin-right: -1%;
+    margin-left: -2%;
+    margin-bottom: -1%;
+
+}
