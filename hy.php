@@ -25,7 +25,8 @@
 
   <aside>
       <div>
-      <h2>Fencing</h2>
+      <h2>Hobbies</h2>
+      <h3>Fencing</h3>
       <figure><img src="images/fencingpic.jpg" alt="fencing"></figure>
       <p>I wasn't planning on joining any clubs when I first came here, but I still went to the club fair because I was bored that afternoon. I walked past someone holding a sword, and I heard a voice in my head: "I should do that. " And that's how I, probably the least coordinated, least athletic person, ended up in a sports club. </p>
       <p>I became the club's photographer the second year, mostly by accident. It was the first tournament after our last photographer had just graduated, and I happen to have my camera in the bag I brought with me. Here're some photos I've taken since then: </p>

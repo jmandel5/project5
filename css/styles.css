@@ -36,6 +36,7 @@ h3{
   font-size:18px;
   font-style: italic;
   text-decoration:underline;
+  text-align: center;
 }
 
 /* *****************************
@@ -92,16 +93,7 @@ footer {
   font-style: italic;
   color: silver;
   font-size: 15px;
-}
-
-.individual footer {
-  grid-column: 1/4;
-  text-align: center;
-
-  font-style: italic;
-  color: silver;
-  font-size: 15px;
-
+  background-color: black;
 }
 
 .individual article {
@@ -128,8 +120,8 @@ footer {
   background-size: 100% 100%;
 
   color: white;
-  font-family: Arial, "Times New Roman", sans-serif;
-  margin-top: 33%;
+/*  font-family: Arial, "Times New Roman", sans-serif;
+*/  margin-top: 33%;
 
   margin-right: -8px;
   border-top: 1px solid gray;
