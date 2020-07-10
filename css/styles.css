@@ -1,4 +1,104 @@
+/* *****************************
+    Base Styles
+   ***************************** */
+header {
+  /* background from wallpapercave.com */
+  background-image: url(../images/bubbles.png);
+  text-align: center;
+  color: #D9CFC0;
 
+  padding-bottom: 20%;
+  padding-top: 10%;
+
+  position: fixed;
+  width: 100%;
+
+  z-index: 2;
+}
+
+h2 {
+  font-style: italic;
+}
+
+
+footer {
+  grid-column: 1 / 4;
+  text-align: center;
+
+  font-style: italic;
+  color: silver;
+  font-size: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+  padding-top: 8%;
+}
+
+img {
+  height: 300px;
+  border: 7px solid #214B71;
+  box-shadow: 3px 3px #1a3e5f;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+/* *****************************
+    Layout
+   ***************************** */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1000px;
+}
+
+.background article {
+    grid-column: 1/3;
+
+}
+
+.background aside {
+  grid-column: 3/4;
+  color: silver;
+  font-family: 'Montserrat', sans-serif;
+    /* instructions from css-tricks.com */
+  transform: rotate(-3deg);
+}
+
+.column_1 {
+  text-align: center;
+
+  grid-column: 1/2;
+  background-image: url(../images/jean.jpg);
+}
+
+.column_2 {
+  text-align: center;
+
+  grid-column: 2/3;
+    background-image: url(../images/jean.jpg);
+}
+
+.column_3 {
+  text-align: center;
+
+  grid-column: 3/4;
+    background-image: url(../images/jean.jpg);
+}
+
+
+/* *****************************
+    Module styles
+   ***************************** */
 .background {
     /* grid specifications */
     width: 100%;
@@ -24,115 +124,6 @@
     line-height: 1.5;
 }
 
-.container{
-	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-
-    margin: 0 auto;
-    width: 85%;
-    max-width: 1000px;
-}
-
-
-.background article {
-    grid-column: 1/3;
-
-}
-
-.background aside {
-	grid-column: 3/4;
-    color: silver;
-    font-family: 'Montserrat', sans-serif;
-    /* instructions from css-tricks.com */
-    transform: rotate(-3deg);
-}
-
-
-header {
-    /* background from wallpapercave.com */
-    background-image: url(../images/bubbles.png);
-
-    text-align: center;
-    color: #D9CFC0;
-
-    padding-bottom: 20%;
-    padding-top: 10%;
-
-    position: fixed;
-    width: 100%;
-
-    z-index: 2;
-
-}
-
-h2 {
-	font-style: italic;
-}
-
-
-footer {
-    grid-column: 1 / 4;
-    text-align: center;
-
-    font-style: italic;
-    color: silver;
-    font-size: 15px;
-}
-
-body {
-    margin: 0;
-}
-
-/* home page */
-
-header {
-  padding-top: 8%;
-}
-
-.background article {
-    /* grid specifications w/in article */
-    grid-column: 1/4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    background: none;
-    align-content: center;
- }
-
-
-
-.column_1 {
-  text-align: center;
-
-  grid-column: 1/2;
-  background-image: url(../images/jean.jpg);
-}
-
-.column_2 {
-  text-align: center;
-
-  grid-column: 2/3;
-    background-image: url(../images/jean.jpg);
-}
-
-.column_3 {
-  text-align: center;
-
-  grid-column: 3/4;
-    background-image: url(../images/jean.jpg);
-}
-
-footer {
-  grid-column: 1/4;
-  text-align: center;
-
-  font-style: italic;
-  color: silver;
-    font-size: 15px;
-
-}
-
 .background a {
   text-decoration: none;
   color: silver;
@@ -146,21 +137,32 @@ footer {
     background-color: indigo;
 }
 
-img {
-  height: 300px;
-  border: 7px solid #214B71;
-  box-shadow: 3px 3px #1a3e5f;
-}
-
-h2 {
-  font-size: 20px;
-  text-align: center;
-}
-
 .major {
   list-style-type: square;
   line-height: 1.5;
   padding-bottom: 8px;
+}
+
+/* not homepage, fix later:
+
+.background article {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background: none;
+    align-content: center;
+ }
+
+
+footer {
+  grid-column: 1/4;
+  text-align: center;
+
+  font-style: italic;
+  color: silver;
+    font-size: 15px;
 
 }
+ */
 
