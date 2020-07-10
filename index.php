@@ -4,13 +4,7 @@
 <body>
 	<?php include "inc/nav.php"; ?>
 	<header>
-		<h1>City-team: London</h1>
-		<section>
-			<p>Information Architect: Qi Miao</p>
-			<p>Visual Designer: Elise Frelinger</p>
-			<p>Technician: Bo Wu</p>
-
-		</section>
+		<h1>City-team: DC</h1>
 	</header>
 
 
@@ -18,27 +12,27 @@
 		<div class="container">
 			<article>
 				<div class="column_1">
-					<h2>Qi Miao - Information Architect</h2>
-					<img src="images/pic.jpg" alt="Qi's photo">
-					<div class="major">Major in Computer Science</div>
-					<div class="major">Major in Digital Media Studies</div>
-					<a href = "http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
+				  <h2>Huiyu (Bonnie) Yang</h2>
+          <img src="images/hy_photo.jpg" alt="Bonnie's photo">
+          <div class="major">Major in Brain and Cognitive Sciences</div>
+          <div class="major">Minor in Clinical Psychology</div>
+          <a href = "http://csc174.org/lab01/hyang42/index.php">View Personal Website</a>
 				</div>
 
 				<div class="column_2">
-					<h2>Elise Frelinger - Visual Designer</h2>
-		            <img src="images/elise_picture.jpg" alt="Elise's photo">
-					<div class="major">Major in Film & Media Studies</div>
-					<div class="major">Minor in Brain & Cognitive Science, History, and Computer Science</div>
-					<a href = "http://csc174.org/lab01/efreling/lab01/index.php">View Personal Website</a>
+					<h2>Joe Madejski</h2>
+		            <img src="images/joe_photo.jpg" alt="Joe's photo">
+					<div class="major">Major in Cell and Tissue Engineering</div>
+					<div class="major">Cluster in Abnormal Psychology</div>
+					<a href = "http://csc174.org/lab01/jmadejsk/">View Personal Website</a>
 				</div>
 
 				<div class="column_3">
-					<h2>Bo Wu - Technician</h2>
-					<img src="images/bo-selfie.jpg" alt="Bo's photo">
-					<div class="major">Rising Junior</div>
-					<div class="major">Major in Computer Science</div>
-					<a href = "http://csc174.org/lab01/bwu18/index.php">View Personal Website</a>
+          <h2>Qi Miao</h2>
+          <img src="images/qi_photo.jpg" alt="Qi's photo">
+          <div class="major">Major in Computer Science</div>
+          <div class="major">Major in Digital Media Studies</div>
+          <a href = "http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
 				</div>
 			</article>
 
