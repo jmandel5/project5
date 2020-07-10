@@ -145,3 +145,14 @@ footer {
   line-height: 1.5;
   padding-bottom: 8px;
 }
+
+
+
+/******
+Joe's addition because the pool image was acting weird
+Will move later
+*******/
+
+.fixedjoesimage {
+  max-width: 500px;
+}

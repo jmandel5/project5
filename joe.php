@@ -1,99 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Joe Madejski</title>
-		 <link rel ="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/navigation.css">
-	</head>
-	<body class="container">
+<?php include "inc/html-top.php"; ?>
 
+<body>
+<?php include "inc/nav.php" ?>
 
-	<?php include "inc/nav.php" ?>
-
-		<div>
+		
 			<header>
 				<h1>About Joe Madejski</h1>
+				<div>Major in Biomedical Engineering</div>
+				<div>Cluster in Abnormal Psychology</div>
 			</header>
+	<div class="background individual">
+	<div class="container">
+		<article>
+			<h2>Background</h2>
+			<figure><img src="images/joe_photo.jpg" alt="Joe's photo"></figure>
+			<p>Joe Madejski was born in Western NY and has lived there since. He is the youngest of his siblings, and therefore the best of them. A graduate of Albion Central Schools, he is currently attending the University of Rochester</p>
 
+			<h2>Major</h2>
+			<h3>Biomedical Engineering</h3>
+			<p>At the U of R, Joe is pursing a degree in Biomedical Engineering with a cluster in abnormal psychology. He is specializing in Cell and Tissue Engineering, which focuses more on the biological mechanisms of organs rather than their mechanics. The various computer courses he has taken are necessary to become aquainted with an omnipresent component of modern society, and to diversify his skill set. </p>
+		</article>
 
+		<aside class="fixedjoesimage">
+			<div>
+			<h2>Hobbies</h2>
+			<h3>Water Activities</h3>
+			<figure><img src="images/pool.jpg" alt="A pool" class="fixedjoesimage"></figure>
+			<p>I've always been fond of doing things on and around the water because I'm really fond of recreational swimming. Sailing is a personal favorite past time of mine, where I can rely on the wind to do the work while I soak up the sun. Being able to anchor the boat and fish is an added benefit.</p>
+			<p>As part of my water activity interest, I have become a life guard both through the Boy Scouts of America and the Red Cross, although at thi point I'm sure I'd have to have both of those renewed.</p>
+			</div>
 
-			<article class="content">
-				<h2>Background</h2>
-					<p>Joe Madejski was born in Western NY and has lived there since. He is the youngest of his siblings, and therefore the best of them. A graduate of Albion Central Schools, he is currently attending the University of Rochester and pursing a degree in Cell and Tissue Engineering with a cluster in abnormal psychology. The various computer courses he has taken are necessary to become aquainted with an omnipresent component of modern society. </p>
-			</article>
-
-			<aside class="side">
-				<figure>
-					<img src="images/main.jpg" alt="A dog" class="shak">
-					<figcaption>A dog. Not my dog mind you, but a dog. (Hover on me!)</figcaption>
-
-				</figure>
-			</aside>
-
-			<header>
-				<h1>Hobbies</h1>
-			</header>
-			<article class="side">
-				<h2>Hobbies</h2>
-				<div>These are mostly water based</div>
-				<ul>
-					<li>Swimming</li>
-					<li>Sailing</li>
-					<li>Fishing</li>
-					<li>And apparently CSC classes</li>
-				</ul>
-			</article>
-			<aside class="content">
-				<figure>
-					<img src="images/pool.jpg" alt="A pool" class="shak">
-					<figcaption>A pool. Not my pool mind you, but a pool. (Hover on me!)</figcaption>
-
-				</figure>
-			</aside>
-
-			<header>
-				<h1>The Future</h1>
-			</header>
-
-				<article class="content">
-					<h2>What Come Next?</h2>
-						<p>Who knows what the future will hold? Mayber I'll become a genetic engineer, or maybe I'll dive more into computer science. Either way, I'm always excited to seize the opportunities ahead of me and make more opportunities of my own!</p>
-				</article>
-
-				<aside class="side">
-					<figure>
-						<img src="images/q.jpg" alt="A question mark" class="shak">
-						<figcaption>What comes next? (Hover on me!)</figcaption>
-
-					</figure>
-				</aside>
-
-			<header>
-				<h1>Fun Facts</h1>
-			</header>
-			<article class="side">
-				<h2>Facts</h2>
+				<div>
+				<h2>Courses Taken</h2>
 					<ul>
-						<li> Graduate of Albion Central Schools</li>
-						<li> Eagle Scout </li>
-						<li> Biomedical Engineering Undergrad</li>
-						<li> Specializing in Cell, Tissue, and Genetic Engineering</li>
-						<li> Competent in MATLAB</li>
+						<li>BME 101 Intro to BME</li>
+						<li>BME 201&201P Biomechanics and MATLAB</li>
+						<li>BME 210 Biosystems and Circuits</li>
+						<li>BME 230 Intro to Sigals and Imaging</li>
+						<li>BCS 246 Biology of Mental Disorders</li>
+						<li>CSC 170 Intro to Web Development</li>
 					</ul>
-			</article>
-			<aside class="content">
-				<figure>
-					<img src="images/q2.jpg" alt="Multiple question marks" class="shak">
-					<figcaption>What do you want to know? (Hover on me!)</figcaption>
-
-				</figure>
+				</div>
 			</aside>
 
-			<footer>
-				CSC 174: Advanced Front-end Design and Development - Project 2
-			</footer>
+			
+	<footer>
+		CSC 174: Advanced Front-end Web Design and Development - Project 2
+	</footer>
 
-		</div>
-	</body>
+</div>
+</div>
+<?php include "inc/scripts.php"; ?>
+</body>
 </html>
+				
