@@ -29,13 +29,26 @@
 		<p>I was undecided in my major for a while, and I started to think about choosing BCS as my major because of its wide variety of courses. As a somewhat interdisciplinary major, I'll need to take classes related to linguistics, optics, computer science, as well as psychology and neuroscience. Like most people in my major, I started in the Perception and Action track. Eventurally, I decided to switch into the Neurobiology and Neuropsychology track in my junior year because I noticed the parts that attracted me the most were related to neurobiology and neuroanatomy. </p>
 		<figure><img src="images/bcsbkg.jpg" alt="self reflected"></figure>
 	</article>
-</div>
-</div>
+
+  <aside>
+      <h2>Courses Taken</h2>
+
+      <ul>
+        <li>BCS 110 Neural Foundations of Behavior</li>
+        <li>BCS 240 Basic Neurobiology</li>
+        <li>BCS 246 Biology of Mental Disorders</li>
+        <li>PSY 280 Clinical Psychology</li>
+        <li>DMS 101 Intro to Digital Media Studies</li>
+        <li>CSC 170 Intro to Web Development</li>
+      </ul>
+    </aside>
+
 
 	<footer>
 		CSC 174: Advanced Front-end Web Design and Development - Project 2
 	</footer>
 
+</div>
 </div>
 <?php include "inc/scripts.php"; ?>
 </body>
