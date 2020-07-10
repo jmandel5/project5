@@ -5,6 +5,5 @@
       <li><a href="joe.php">Joe Madejski</a></li>
 			<li><a href="qi.php">Qi Miao</a></li>
 
-
 		</ul>
 </nav>

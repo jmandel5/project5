@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-	<meta charset="utf-8">
-	<title>Project 1</title>
-	<link rel="stylesheet" href="css/nav.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/home.css">
-	<link rel="stylesheet"
-  	href="https://fonts.googleapis.com/css?family=Montserrat">
-</head>
+<?php include "inc/html-top.php"; ?>
 
 
 <body>
@@ -26,7 +14,7 @@
 	</header>
 
 
-	<div class="background">	
+	<div class="background">
 		<div class="container">
 			<article>
 				<div class="column_1">
@@ -57,7 +45,7 @@
 			<footer>
 				<p>CSC 174:Advanced Front-end Web - Project 1</p>
 			</footer>
-		
+
 		</div><!-- used for center container -->
 	</div>
 </body>
