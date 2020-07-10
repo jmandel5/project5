@@ -8,7 +8,7 @@
 	</header>
 
 
-	<div class="background">
+	<div class="background home">
 		<div class="container">
 			<article>
 				<div class="column_1">

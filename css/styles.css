@@ -20,16 +20,6 @@ h2 {
   font-style: italic;
 }
 
-
-footer {
-  grid-column: 1 / 4;
-  text-align: center;
-
-  font-style: italic;
-  color: silver;
-  font-size: 15px;
-}
-
 body {
     margin: 0;
 }
@@ -48,6 +38,7 @@ h2 {
   font-size: 20px;
   text-align: center;
 }
+
 /* *****************************
     Layout
    ***************************** */
@@ -59,11 +50,6 @@ h2 {
   margin: 0 auto;
   width: 85%;
   max-width: 1000px;
-}
-
-.background article {
-    grid-column: 1/3;
-
 }
 
 .background aside {
@@ -85,43 +71,74 @@ h2 {
   text-align: center;
 
   grid-column: 2/3;
-    background-image: url(../images/jean.jpg);
+  background-image: url(../images/jean.jpg);
 }
 
 .column_3 {
   text-align: center;
 
   grid-column: 3/4;
-    background-image: url(../images/jean.jpg);
+  background-image: url(../images/jean.jpg);
 }
 
+.home article {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  background: none;
+  align-content: center;
+ }
+
+footer {
+  grid-column: 1 / 4;
+  text-align: center;
+
+  font-style: italic;
+  color: silver;
+  font-size: 15px;
+}
+
+.individual footer {
+  grid-column: 1/4;
+  text-align: center;
+
+  font-style: italic;
+  color: silver;
+  font-size: 15px;
+
+}
+
+.individual article {
+  grid-column: 1/3;
+}
 
 /* *****************************
     Module styles
    ***************************** */
 .background {
-    /* grid specifications */
-    width: 100%;
+  /* grid specifications */
+  width: 100%;
 
-    margin: auto;
-    margin-left: 0;
+  margin: auto;
+  margin-left: 0;
 
-    position: absolute;
-    /* instruction of z-index from
-    freecodecamp.org */
-    z-index: 3;
-    /*background from istockphoto.com */
-    background-image: url(../images/jean.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  position: absolute;
+  /* instruction of z-index from
+  freecodecamp.org */
+  z-index: 3;
+  /*background from istockphoto.com */
+  background-image: url(../images/jean.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
-    color: white;
-    font-family: Arial, "Times New Roman", sans-serif;
-    margin-top: 33%;
+  color: white;
+  font-family: Arial, "Times New Roman", sans-serif;
+  margin-top: 33%;
 
-    margin-right: -8px;
-    border-top: 1px solid gray;
-    line-height: 1.5;
+  margin-right: -8px;
+  border-top: 1px solid gray;
+  line-height: 1.5;
 }
 
 .background a {
@@ -129,12 +146,12 @@ h2 {
   color: silver;
   border: 1.5px dotted white;
   padding: 4px;
-    color: #D9CFC0;
-    background-color: #214B71;
+  color: #D9CFC0;
+  background-color: #214B71;
 }
 
 .background a:hover {
-    background-color: indigo;
+  background-color: indigo;
 }
 
 .major {
@@ -142,27 +159,3 @@ h2 {
   line-height: 1.5;
   padding-bottom: 8px;
 }
-
-/* not homepage, fix later:
-
-.background article {
-    grid-column: 1/4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    background: none;
-    align-content: center;
- }
-
-
-footer {
-  grid-column: 1/4;
-  text-align: center;
-
-  font-style: italic;
-  color: silver;
-    font-size: 15px;
-
-}
- */
-

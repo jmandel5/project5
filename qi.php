@@ -10,7 +10,7 @@
 	</header>
 
 
-	<div class="background">
+	<div class="background individual">
 		<div class="container">
 		<article>
 			<h2>Computer Science</h2>
