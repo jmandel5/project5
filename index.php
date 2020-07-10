@@ -37,7 +37,7 @@
 			</article>
 
 			<footer>
-				<p>CSC 174:Advanced Front-end Web - Project 1</p>
+				<p>CSC 174:Advanced Front-end Web - Project 2</p>
 			</footer>
 
 		</div><!-- used for center container -->
