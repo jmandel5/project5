@@ -53,7 +53,6 @@ h2 {
   color: silver;
   font-family: 'Montserrat', sans-serif;
     /* instructions from css-tricks.com */
-  transform: rotate(-3deg);
 }
 
 .column_1 {
