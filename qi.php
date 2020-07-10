@@ -49,7 +49,7 @@
 		</aside>
 
 		<footer>
-			<p>CSC 174: Advanced Front-end Web - Project 2</p>
+			CSC 174: Advanced Front-end Design and Development - Project 2
 		</footer>
 		</div> <!-- center container -->
 	<div><!--  background container -->

@@ -7,16 +7,16 @@
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
 	</head>
 	<body class="container">
-	
+
 
 	<?php include "inc/nav.php" ?>
-	
+
 		<div>
 			<header>
 				<h1>About Joe Madejski</h1>
 			</header>
 
-			
+
 
 			<article class="content">
 				<h2>Background</h2>
@@ -89,12 +89,9 @@
 
 				</figure>
 			</aside>
-			
-			<footer> 
-				<p>CSC 174: Advanced Front-End Web Design and Development Project 1</p> 
-				<p>
-					<a href="http://csc174.org/lab01/jmadejsk/index.php">Check out my website</a>
-				</p>
+
+			<footer>
+				CSC 174: Advanced Front-end Design and Development - Project 2
 			</footer>
 
 		</div>
