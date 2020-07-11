@@ -21,13 +21,13 @@
 			<p>At the U of R, Joe is pursing a degree in Biomedical Engineering with a cluster in abnormal psychology. He is specializing in Cell and Tissue Engineering, which focuses more on the biological mechanisms of organs rather than their mechanics. The various computer courses he has taken are necessary to become aquainted with an omnipresent component of modern society, and to diversify his skill set. </p>
 		</article>
 
-		<aside class="fixedjoesimage">
+		<aside>
 			<div>
 			<h2>Hobbies</h2>
 			<h3>Water Activities</h3>
 			<figure><img src="images/pool.jpg" alt="A pool" class="fixedjoesimage"></figure>
 			<p>I've always been fond of doing things on and around the water because I'm really fond of recreational swimming. Sailing is a personal favorite past time of mine, where I can rely on the wind to do the work while I soak up the sun. Being able to anchor the boat and fish is an added benefit.</p>
-			<p>As part of my water activity interest, I have become a life guard both through the Boy Scouts of America and the Red Cross, although at thi point I'm sure I'd have to have both of those renewed.</p>
+			<p>As part of my water activity interest, I have become a life guard both through the Boy Scouts of America and the Red Cross, although at this point I'm sure I'd have to have both of those renewed.</p>
 
 				<h2>Courses Taken</h2>
 					<ul>
