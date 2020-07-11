@@ -14,7 +14,7 @@
 	<article>
     <h2>Background</h2>
     <figure><img src="images/hy_photo.jpg" alt="hy's photo"></figure>
-		<p>I am a senior at the University of Rochester studying Neurobiology and Clinical Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in Computer Science, but that is no longer possible for scheduling reasons. </p>
+		<p>My name is Bonnie Yang. I am a senior at the University of Rochester studying Neurobiology and Clinical Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in Computer Science, but that is no longer possible for scheduling reasons. </p>
     <p>I've been a member of U of R's Fencing club since freshman year, and I took over the job of vice president last winter. Before I came to Rochester, I went to high school in Shanghai, China, where I was born and raised. </p>
 
     <h2>Major</h2>
