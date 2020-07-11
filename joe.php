@@ -14,7 +14,7 @@
 		<article>
 			<h2>Background</h2>
 			<figure><img src="images/joe_photo.jpg" alt="Joe's photo"></figure>
-			<p>Joe Madejski was born in Western NY and has lived there since. He is the youngest of his siblings, and therefore the best of them. A graduate of Albion Central Schools, he is currently attending the University of Rochester</p>
+			<p>Joe Madejski was born in Western NY and has lived there since. He is the youngest of his siblings, and therefore the best of them. A graduate of Albion Central Schools, he is currently attending the University of Rochester. </p>
 
 			<h2>Major</h2>
 			<h3>Biomedical Engineering</h3>
