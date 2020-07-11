@@ -3,7 +3,7 @@
 <body>
 <?php include "inc/nav.php" ?>
 
-		
+
 			<header>
 				<h1>About Joe Madejski</h1>
 				<div>Major in Biomedical Engineering</div>
@@ -28,9 +28,7 @@
 			<figure><img src="images/pool.jpg" alt="A pool" class="fixedjoesimage"></figure>
 			<p>I've always been fond of doing things on and around the water because I'm really fond of recreational swimming. Sailing is a personal favorite past time of mine, where I can rely on the wind to do the work while I soak up the sun. Being able to anchor the boat and fish is an added benefit.</p>
 			<p>As part of my water activity interest, I have become a life guard both through the Boy Scouts of America and the Red Cross, although at thi point I'm sure I'd have to have both of those renewed.</p>
-			</div>
 
-				<div>
 				<h2>Courses Taken</h2>
 					<ul>
 						<li>BME 101 Intro to BME</li>
@@ -43,7 +41,7 @@
 				</div>
 			</aside>
 
-			
+
 	<footer>
 		CSC 174: Advanced Front-end Web Design and Development - Project 2
 	</footer>
@@ -54,4 +52,3 @@
 	<script src="scripts/menu-highlighter.js"></script>
 </body>
 </html>
-				
