@@ -42,6 +42,8 @@
 
 		</div><!-- used for center container -->
 	</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+<script src="scripts/menu-highlighter.js"></script>
 </body>
 
 

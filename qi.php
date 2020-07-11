@@ -52,7 +52,8 @@
 		</footer>
 		</div> <!-- center container -->
 	<div><!--  background container -->
-		<?php include "inc/scripts.php"; ?>
+		<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="scripts/menu-highlighter.js"></script>
 </body>
 
 </html>
