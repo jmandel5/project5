@@ -29,7 +29,7 @@
 			<div>
 				<h2>Hobbies</h2>
 				<h3>Music</h3>
-				<figure><img src="images/fencingpic.jpg" alt="fencing"></figure>
+				<figure><img src="images/music.jpg" alt="My hobby: Music"></figure>
 				<p>I love listening to the music, playing instruments and singsing. I like Cocteau Twins and Sophie Zelmani. I played string instruments before,and I started to learn guitar and western music since I entered college. I am not so professional in it, but I will keep practicing and embracing suggestions from other guitar players. Singing is kinda a way for me to "waste" time. I almost sing everyday and joined the concert choir in U of R. Besides, sometimes I will participate in some musical competitions to make progress.</p>
 			</div>
 			
