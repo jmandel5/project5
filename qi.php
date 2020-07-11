@@ -13,7 +13,11 @@
 	<div class="background individual">
 		<div class="container">
 		<article>
-			<h2>Computer Science</h2>
+			<h2>Background</h2>
+			<figure><img src="images/pic.jpg" alt="Qi's photo"></figure>
+			<p>My name is Qi Miao. I also go by Iris. I am a rising junior, majoring in Computer Science and Digital Media Studies. I participate in Modern Language and Culture Undergraduate Council and Active Minds. I am interested in psychology, so I am going to minor in psychology as well. I know some programming languages like JAVA, HTML, CSS, and C, and I have some expereince in coding. I also like studying languages and astrology myself.</p>
+
+
 			<p>I am pursuing a BA in Computer Science and want to focus on the HCI(Human Computer Interaction) track. I am interested in the realtionship between high-tech and people, so I want to use technologies to make our life a little bit easier if possible.</p>
 
 			<h2>Digital Media Studies</h2>
@@ -22,11 +26,7 @@
 			<h2>Music</h2>
 			<p>I love listening to the music, playing instruments and singsing. I like Cocteau Twins and Sophie Zelmani. I played string instruments before,and I started to learn guitar and western music since I entered college. I am not so professional in it, but I will keep practicing and embracing suggestions from other guitar players. Singing is kinda a way for me to "waste" time. I almost sing everyday and joined the concert choir in U of R.</p>
 
-			<h2>Languages</h2>
-			<p>I am interested in learning different languages. I speak Mandarin, English, a little bit Japanese. I am also learning German and Cantonese myself. I found different grammar structures interesting and will explore as much as possible.</p>
-
-			<h2>Astrology</h2>
-			<p>I like observing and talking to different people, so I started learning psychology in my high school. Then, I got to know a psychologist, Stephen Arroyo, who is also a astrologist. He wrote some books, indicating the relationships between psychology and astrology, and those contents intrigued me a lot.</p>
+			
 
 			<h2>Active Minds</h2>
 			<p>Active Minds is a student organization at University of Rochester, focusing on mental health of students on campus. We regularly organize activities such as lectures and exhibitions in order to appeal to all students on campus to pay attention to and face up to their mental health problems. I am the Business Manager of this organization, and is responsible for things like ordering food and materials for our activities like GIM and GMM and recording the money transaction needed for the events.</p>
