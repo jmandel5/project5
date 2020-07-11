@@ -37,12 +37,12 @@
 			<h2>Courses Taken</h2>
 
 			<ul>
-				<li>CSC 170 </li>
-				<li>CSC 171 </li>
-				<li>CSC 172 </li>
-				<li>CSC 173 </li>
-				<li>DMS 101 </li>
-				<li>DMS 104 </li>
+				<li>CSC 170 Intro to Web Development</li>
+				<li>CSC 171 Intro to Computer Science</li>
+				<li>CSC 172 Data Structures & Algorithms</li>
+				<li>CSC 173 Computation & Formal Systems</li>
+				<li>DMS 101 Intro to Digital Media Studies</li>
+				<li>DMS 104 Design in the Digital Age</li>
 			</ul>
 			</div>
 		</aside>
