@@ -132,7 +132,7 @@ footer {
 .background a {
   text-decoration: none;
   color: silver;
-  border-bottom: 1.5px dotted white;
+  /*border-bottom: 1.5px dotted white;*/
   color: #D9CFC0;
   padding-right: 8px;
   padding-left: 10px;
