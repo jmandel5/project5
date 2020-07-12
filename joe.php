@@ -14,7 +14,7 @@
 		<article>
 			<h2>Background</h2>
 			<figure><img src="images/joe_photo.jpg" alt="Joe's photo"></figure>
-			<p>My name is Joe Madejski. I was born in Western NY and have lived there since. I am the youngest of his siblings, and therefore the best of them. A graduate of Albion Central Schools, I am currently attending the University of Rochester. </p>
+			<p>My name is Joe Madejski. I was born in Western NY and have lived there since. I am the youngest of his siblings, and therefore the best of them. A graduate of Albion Central Schools, I am currently attending the University of Rochester studying Cell and Tissue Engineering. </p>
 
 			<h2>Major</h2>
 			<h3>Biomedical Engineering</h3>
