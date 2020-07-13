@@ -5,7 +5,7 @@
 
 
 			<header>
-				<h1>About Joe Madejski</h1>
+				<h1>Joe Madejski</h1>
 				<div>Major in Biomedical Engineering</div>
 				<div>Cluster in Abnormal Psychology</div>
 			</header>
