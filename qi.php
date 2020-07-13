@@ -22,7 +22,6 @@
 			<p>I am pursuing a BA in Computer Science and want to focus on the HCI(Human Computer Interaction) track. I am interested in the realtionship between high-tech and people, so I want to use technologies to make our life a little bit easier if possible.</p>
 			<p>I am also pursuing a degree in Digital Media Studies. The reasons are similar to those for my another degree, BA in Computer Science. Besides, DMS program can offer me some opportunities in practicing and desiging products.</p>
 
-
 		</article>
 
 		<aside>
@@ -31,9 +30,7 @@
 				<h3>Music</h3>
 				<figure><img src="images/music.jpg" alt="My hobby: Music"></figure>
 				<p>I love listening to the music, playing instruments and singsing. I like Cocteau Twins and Sophie Zelmani. I played string instruments before,and I started to learn guitar and western music since I entered college. I am not so professional in it, but I will keep practicing and embracing suggestions from other guitar players. Singing is kinda a way for me to "waste" time. I almost sing everyday and joined the concert choir in U of R. Besides, sometimes I will participate in some musical competitions to make progress.</p>
-			</div>
-			
-			<div>
+
 			<h2>Courses Taken</h2>
 
 			<ul>

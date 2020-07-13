@@ -22,7 +22,7 @@ body {
 }
 
 img {
-  height: 300px;
+  /*height: 300px;*/
   border: 7px solid #214B71;
   box-shadow: 3px 3px #1a3e5f;
 }
@@ -30,6 +30,9 @@ img {
 h2 {
   font-size: 25px;
   text-align: center;
+  border-top: silver dashed;
+  margin-top: 30px;
+  padding-top: 20px;
 }
 
 h3{
@@ -119,8 +122,7 @@ footer {
   background-size: 100% 100%;
 
   color: white;
-/*  font-family: Arial, "Times New Roman", sans-serif;
-*/  margin-top: 33%;
+  margin-top: 33%;
 
   margin-right: -8px;
   border-top: 1px solid gray;
@@ -130,10 +132,10 @@ footer {
 .background a {
   text-decoration: none;
   color: silver;
-  border: 1.5px dotted white;
-  padding: 4px;
+  /*border-bottom: 1.5px dotted white;*/
   color: #D9CFC0;
-  background-color: #214B71;
+  padding-right: 8px;
+  padding-left: 10px;
 }
 
 .background a:hover {
@@ -146,13 +148,12 @@ footer {
   padding-bottom: 8px;
 }
 
+h2:nth-of-type(1){
+  border-top: none;
+  margin-top: 0px;
+  padding-top: 0px;
+}
 
-
-/******
-Joe's addition because the pool image was acting weird
-Will move later
-*******/
-
-.fixedjoesimage {
-  max-width: 500px;
+.home img{
+  width: 300px;
 }

@@ -14,7 +14,7 @@
 	<article>
     <h2>Background</h2>
     <figure><img src="images/hy_photo.jpg" alt="hy's photo"></figure>
-		<p>I am a senior at the University of Rochester studying Neurobiology and Clinical Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in Computer Science, but that is no longer possible for scheduling reasons. </p>
+		<p>My name is Bonnie Yang. I am a senior at the University of Rochester studying Neurobiology and Clinical Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in Computer Science, but that is no longer possible for scheduling reasons. </p>
     <p>I've been a member of U of R's Fencing club since freshman year, and I took over the job of vice president last winter. Before I came to Rochester, I went to high school in Shanghai, China, where I was born and raised. </p>
 
     <h2>Major</h2>
@@ -30,9 +30,7 @@
       <figure><img src="images/fencingpic.jpg" alt="fencing"></figure>
       <p>I wasn't planning on joining any clubs when I first came here, but I still went to the club fair because I was bored that afternoon. I walked past someone holding a sword, and I heard a voice in my head: "I should do that. " And that's how I, probably the least coordinated, least athletic person, ended up in a sports club. </p>
       <p>I became the club's photographer the second year, mostly by accident. It was the first tournament after our last photographer had just graduated, and I happen to have my camera in the bag I brought with me. Here're some photos I've taken since then: </p>
-      </div>
 
-      <div>
       <h2>Courses Taken</h2>
       <ul>
         <li>BCS 110 Neural Foundations of Behavior</li>
