@@ -1,5 +1,6 @@
 <?php
 $customCSS = "<link rel=\"stylesheet\" href=\"css/home.css\">";
+$useNav = false;
 include "inc/html-top.php";
 ?>
 <body>

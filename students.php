@@ -1,9 +1,8 @@
 <?php
-$customCSS = "";
+$customCSS = "<link rel=\"stylesheet\" href=\"css/styles.css\">";
+$useNav = true;
 include "inc/html-top.php";
 ?>
-<body>
-<?php include "inc/nav.php"; ?>
 
 <header>
     <h1>City-team: DC</h1>
