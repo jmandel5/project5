@@ -13,7 +13,7 @@ include "inc/html-top.php";
             <label for="username">Username</label>
             <input type="text" placeholder="Username" name="username" required>
             <label for="password">Password</label>
-            <input type="text" placeholder="Password" name="password" required>
+            <input type="password" placeholder="Password" name="password" required>
             <button type="submit">Sign In</button>
         </div>
     </div>
