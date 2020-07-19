@@ -1,4 +1,7 @@
-<?php include "inc/html-top.php"; ?>
+<?php
+$customCSS="";
+include "inc/html-top.php";
+?>
 
 <body>
 <?php include "inc/nav.php" ?>
