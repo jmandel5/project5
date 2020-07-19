@@ -1,0 +1,65 @@
+header {
+    margin-top: 70px;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+}
+
+.menu h1, .menu ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu, .menu h1, .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu h1, .menu a {
+    color: white;
+    font-family: Oswald, serif;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a {
+    padding: 1em;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu .is-current {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 684px) {
+    header {
+        margin-top: 104px;
+    }
+
+    .menu h1, .menu ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .menu a {
+        padding: 0;
+        margin: 1em;
+    }
+}
