@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20JP">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
 </head>
-<body>
+<body class="<?php echo $bodyCSS ?>">
 <?php
 if ($useNav) {
     include "inc/nav.php";

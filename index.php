@@ -1,17 +1,39 @@
 <?php
 $customCSS = "<link rel=\"stylesheet\" href=\"css/home.css\">";
 $useNav = false;
+$bodyCSS = "z-pattern";
 include "inc/html-top.php";
 ?>
-<body>
-    <header>
-        <h1>City-team: DC</h1>
-    </header>
+<header>
+    <div class="container">
+        <h2>CSC 174</h2>
 
-    <footer>
-        CSC 174: Advanced Front-end Design and Development - Project 2
-    </footer>
+        <div class="login">
+            <h3>Log In</h3>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" name="username" required>
+            <label for="password">Password</label>
+            <input type="text" placeholder="Password" name="password" required>
+            <button type="submit">Sign In</button>
+        </div>
+    </div>
 
-    <?php include "inc/scripts.php" ?>
+</header>
+
+<main>
+    <h1>Advanced Front-End Web Design And Development</h1>
+</main>
+
+<footer>
+    <div class="container">
+        <aside>
+            <h3>Summer 2020</h3>
+        </aside>
+
+        <h3><a href="students.php">View Our Page</a></h3>
+    </div>
+</footer>
+
+<?php include "inc/scripts.php" ?>
 </body>
 </html>

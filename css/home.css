@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.z-pattern {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.z-pattern header, .z-pattern footer {
+    position: fixed;
+    width: 100%;
+}
+
+.z-pattern header {
+    top: 0;
+}
+
+.z-pattern footer {
+    bottom: 0;
+}
+
+.z-pattern main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
