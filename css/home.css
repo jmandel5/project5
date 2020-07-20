@@ -56,6 +56,7 @@ button, footer a {
     border-radius: 8px;
     cursor: pointer;
     padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 .login button:hover {
@@ -98,13 +99,9 @@ button, footer a {
     bottom: 0;
 }
 
-.z-pattern a {
-    color: black;
-    text-decoration: none;
-}
-
 .z-pattern a:hover {
-    color: white;
+    background: white;
+    color: black;
 }
 
 @media (max-height: 848px) {
