@@ -1,23 +1,84 @@
-body {
-    margin: 0;
+.z-pattern h1, .z-pattern h2, .z-pattern h3 {
+    font-family: Montserrat, serif;
+}
+
+.z-pattern h1 {
+    font-size: 72px;
+}
+
+.z-pattern h2 {
+    font-size: xx-large;
+}
+
+.z-pattern h3 {
+    font-size: x-large;
+}
+
+.z-pattern label, input, button {
+    font-size: large;
+    font-family: Noto Sans JP, serif;
+}
+
+.z-pattern main img {
+    padding: 2em;
+    box-shadow: 2px 9px 9px 4px;
+}
+
+.title, .login {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 2px 9px 9px 4px;
+}
+
+.login h2 {
+    text-align: center;
+}
+
+.login label, .login input, .login button {
+    display: block;
+    margin-top: 0.35em;
+}
+
+.login button {
+    background: #3340ff;
+    color: white;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background: white;
+    color: black;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1em;
 }
 
 .z-pattern {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
+    margin: 0;
+}
+
+.z-pattern main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .z-pattern header, .z-pattern footer {
     position: fixed;
-    width: 100%;
+    width: 95%;
+    left: 2.5%;
 }
 
 .z-pattern header {
@@ -28,9 +89,11 @@ body {
     bottom: 0;
 }
 
-.z-pattern main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.z-pattern a {
+    color: black;
+    text-decoration: none;
+}
+
+.z-pattern a:hover {
+    color: white;
 }

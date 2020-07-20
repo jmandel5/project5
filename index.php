@@ -6,31 +6,34 @@ include "inc/html-top.php";
 ?>
 <header>
     <div class="container">
-        <h2>CSC 174</h2>
+        <div class="title">
+            <h1>CSC 174</h1>
+            <h2>Fall 2020</h2>
+        </div>
 
         <div class="login">
-            <h3>Log In</h3>
+            <h2>Login</h2>
             <label for="username">Username</label>
             <input type="text" placeholder="Username" name="username" required>
             <label for="password">Password</label>
             <input type="password" placeholder="Password" name="password" required>
-            <button type="submit">Sign In</button>
+            <button type="submit">Login</button>
         </div>
     </div>
 
 </header>
 
 <main>
-    <h1>Advanced Front-End Web Design And Development</h1>
+    <img src="images/uorlogo.png">
 </main>
 
 <footer>
     <div class="container">
         <aside>
-            <h3>Summer 2020</h3>
+            <h2>Advanced Front End Development</h2>
         </aside>
 
-        <h3><a href="students.php">View Our Page</a></h3>
+        <h2><a href="students.php">View Our Page</a></h2>
     </div>
 </footer>
 
