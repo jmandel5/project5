@@ -1,50 +1,42 @@
-<?php include "inc/html-top.php"; ?>
+<?php
+$customCSS = "<link rel=\"stylesheet\" href=\"css/home.css\">";
+$useNav = false;
+$bodyCSS = "z-pattern";
+include "inc/html-top.php";
+?>
+<header>
+    <div class="container">
+        <div class="title">
+            <h1>CSC 174</h1>
+            <h2>Fall 2020</h2>
+        </div>
 
+        <div class="login">
+            <h2>Login</h2>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" name="password" required>
+            <button type="submit">Login</button>
+        </div>
+    </div>
 
-<body>
-	<?php include "inc/nav.php"; ?>
-	<header>
-		<h1>City-team: DC</h1>
-	</header>
+</header>
 
+<main>
+    <img src="images/uorlogo.png">
+</main>
 
-	<div class="background home">
-		<div class="container">
-			<article>
-				<div class="column_1">
-				  <h2>Huiyu (Bonnie) Yang</h2>
-          <a href="hy.php"><img src="images/hy_photo.jpg" alt="Bonnie's photo"></a>
-          <div class="major">Major in Brain and Cognitive Sciences</div>
-          <div class="major">Minor in Clinical Psychology</div>
-          <a href = "http://csc174.org/lab01/hyang42/index.php">View Personal Website</a>
-				</div>
+<footer>
+    <div class="container">
+        <aside>
+            <h2>Advanced Front End Development</h2>
+        </aside>
 
-				<div class="column_2">
-					<h2>Joe Madejski</h2>
-		      <a href="jo3.php"><img src="images/joe_photo.jpg" alt="Joe's photo"></a>
-					<div class="major">Major in Cell and Tissue Engineering</div>
-					<div class="major">Cluster in Abnormal Psychology</div>
-					<a href = "http://csc174.org/lab01/jmadejsk/">View Personal Website</a>
-				</div>
+        <h2><a href="students.php">View Our Page</a></h2>
+    </div>
+</footer>
 
-				<div class="column_3">
-          <h2>Qi Miao</h2>
-          <a href="qi.php"><img src="images/qi_photo.jpg" alt="Qi's photo"></a>
-          <div class="major">Major in Computer Science</div>
-          <div class="major">Major in Digital Media Studies</div>
-          <a href = "http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
-				</div>
-			</article>
-
-			<footer>
-			 CSC 174: Advanced Front-end Design and Development - Project 2
-			</footer>
-
-		</div><!-- used for center container -->
-	</div>
-	<script src="http://code.jquery.com/jquery.js"></script>
-<script src="scripts/menu-highlighter.js"></script>
+<?php include "inc/scripts.php" ?>
 </body>
-
-
 </html>
