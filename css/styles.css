@@ -89,6 +89,12 @@ h3{
   width: 300px;
 }
 
+.person {
+  border-radius: 25px;
+  background-color:  rgb(255, 206, 153, 0.8);
+ 
+}
+
 .person figure{
     float:right;
     margin: 20px 0px 0px 0px;
