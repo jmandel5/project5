@@ -5,22 +5,25 @@ include "inc/html-top.php";
 ?>
 
 <header>
+    <div class="person">
     <h1>Bonnie Yang</h1>
-    <div>Major in Brain and Cognitive Sciences</div>
-    <div>Minor in Clinical Psychology</div>
+    <figure><img src="images/hy_photo.jpg" alt="hy's photo"></figure>
+    </div>
 </header>
 
 <div class="background individual">
     <div class="container">
-        <article>
+        
+        <div class="personBg">
             <h2>Background</h2>
-            <figure><img src="images/hy_photo.jpg" alt="hy's photo"></figure>
             <p>My name is Bonnie Yang. I am a senior at the University of Rochester studying Neurobiology and Clinical
                 Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in
                 Computer Science, but that is no longer possible for scheduling reasons. </p>
             <p>I've been a member of U of R's Fencing club since freshman year, and I took over the job of vice
                 president last winter. Before I came to Rochester, I went to high school in Shanghai, China, where I was
                 born and raised. </p>
+        </div>
+        <div class="major">
 
             <h2>Major</h2>
             <h3>Brain & Cognitive Sciences</h3>
@@ -30,10 +33,10 @@ include "inc/html-top.php";
             <p>Like most people in my major, I started in the Perception and Action track. Eventurally, I decided to
                 switch into the Neurobiology and Neuropsychology track in my junior year because I noticed the parts
                 that attracted me the most were related to neurobiology and neuroanatomy. </p>
-        </article>
+        </div>
 
-        <aside>
-            <div>
+        
+        <div class="hobbies">
                 <h2>Hobbies</h2>
                 <h3>Fencing</h3>
                 <figure><img src="images/fencingpic.jpg" alt="fencing"></figure>
@@ -45,6 +48,9 @@ include "inc/html-top.php";
                     after our last photographer had just graduated, and I happen to have my camera in the bag I brought
                     with me. Here're some photos I've taken since then: </p>
 
+        </div>
+        <div class="courses">
+
                 <h2>Courses Taken</h2>
                 <ul>
                     <li>BCS 110 Neural Foundations of Behavior</li>
@@ -54,8 +60,8 @@ include "inc/html-top.php";
                     <li>DMS 101 Intro to Digital Media Studies</li>
                     <li>CSC 170 Intro to Web Development</li>
                 </ul>
-            </div>
-        </aside>
+        </div>
+       
 
 
         <footer>
