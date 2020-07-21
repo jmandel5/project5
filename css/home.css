@@ -104,39 +104,3 @@ button, footer a {
     color: black;
 }
 
-@media (max-height: 848px) {
-    .z-pattern header, .z-pattern footer {
-        position: relative;
-    }
-
-    .z-pattern main {
-        min-height: unset;
-    }
-}
-
-@media (max-width: 586px) {
-    .z-pattern h2 {
-        font-size: x-large;
-    }
-
-    .z-pattern h3 {
-        font-size: large;
-    }
-}
-
-@media (max-width: 650px) {
-    input {
-        margin: 0 auto;
-    }
-
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1074px) {
-    main img {
-        display: none;
-    }
-}
