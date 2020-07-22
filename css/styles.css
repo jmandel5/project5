@@ -84,53 +84,54 @@ h3{
     font-weight: normal;
 }
 
-
-.home img{
-  width: 300px;
+footer{
+    margin: 30px 10px;
 }
 
-.person {
-  border-radius: 25px;
-  background-color:  rgb(255, 206, 153, 0.8);
- 
+.individual img{
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+
+.person{
+    border-radius: 25px;
+    display: flex;
+    background-color: rgba(255, 206, 153, 0.8);
+    margin: 50px 10px 50px 10px;
 }
 
 .person figure{
-    float:right;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0 0 0;
 }
 
 .person h1{
-    float:left;
-    font-size: 100px;
+    font-size: 70px;
+    padding: 0 30px;
+}
+
+li{
+    margin: 8px 0;
 }
 
 .box1{
     border-radius: 25px;
-    background-color:  rgb(255, 230, 204, 0.8);
-    margin:20px 10px 10px 10px;
-    padding: 45px 15px 15px 15px;
-    height:450px;
-    width:550px;
+    background-color: rgba(255, 230, 204, 0.8);
+    margin: 10px 10px 10px 10px;
+    padding: 30px;
 }
 
-.box2{
-    border-radius: 25px;
-    background-color:  #ccccff;
-    margin:20px 10px 10px 10px;
-    padding: 45px 15px 15px 15px;
-    height:450px;
-    width:500px;
-
-}
 
 .basic{
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50% auto;
+    grid-template-areas:
+            "one two"
+            "three four";
 }
 
-.basic h3{
-    color:black;
+.one{
+    grid-area: one;
 }
-
-

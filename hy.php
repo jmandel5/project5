@@ -14,12 +14,12 @@ include "inc/html-top.php";
         <div class="container">
 
             <div class="person">
-                <h1>Bonnie Yang</h1>
                 <figure><img src="images/hy_photo.jpg" alt="hy's photo"></figure>
+                <h1>Bonnie Yang</h1>
             </div>
 
            <div class="basic">
-                <div class="box1">
+                <div class="box1 one">
                     <h2>Background</h2>
 
                     <p>My name is Bonnie Yang. I am a senior at the University of Rochester studying Neurobiology and Clinical Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in Computer Science, but that is no longer possible for scheduling reasons. </p>
@@ -27,7 +27,7 @@ include "inc/html-top.php";
                     <p>I've been a member of U of R's Fencing club since freshman year, and I took over the job of vice president last winter. Before I came to Rochester, I went to high school in Shanghai, China, where I was born and raised. </p>
                 </div>
 
-                <div class="box1">
+                <div class="box1 two">
                     <h2>Hobbies</h2>
                         <h3>Fencing</h3>
                        <!--- <figure><img src="images/fencingpic.jpg" alt="fencing"></figure> -->
@@ -36,12 +36,8 @@ include "inc/html-top.php";
                         <p>I became the club's photographer the second year, mostly by accident. It was the first tournament after our last photographer had just graduated, and I happen to have my camera in the bag I brought with me. Here're some photos I've taken since then: </p>
                 </div>
 
-            </div>
 
-
-           <div class="basic">
-                
-                <div class="box1">
+                <div class="box1 three">
 
                         <h2>Major</h2>
                         <h3>Brain & Cognitive Sciences</h3>
@@ -53,7 +49,7 @@ include "inc/html-top.php";
 
                 </div>
 
-                <div class="box1">
+                <div class="box1 four">
 
                         <h2>Courses Taken</h2>
                         <ul>

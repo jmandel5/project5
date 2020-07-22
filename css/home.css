@@ -7,11 +7,12 @@
 }
 
 .z-pattern h1 {
-    font-size: 72px;
+    font-size: 60px;
 }
 
 .z-pattern h2 {
     font-size: xx-large;
+    margin-bottom: 1.4em;
 }
 
 .z-pattern h3 {
@@ -25,15 +26,15 @@
 
 .z-pattern main img {
     padding: 2em;
-    box-shadow: 2px 9px 9px 4px;
+    box-shadow: 4px 9px 9px 4px rgba(0, 0, 0, 0.69);
     background-color: rgba(255, 255, 255, 0.75);
 }
 
 .title, .login {
-    margin-top: 1em;
+    margin-top: 2em;
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.75);
-    box-shadow: 2px 9px 9px 4px;
+    box-shadow: 4px 9px 9px 4px rgba(0, 0, 0, 0.69);
 }
 
 .login h2 {
@@ -47,6 +48,7 @@
 
 .login button {
     margin: 1em auto;
+    transition: 0.3s;
 }
 
 button, footer a {
@@ -57,11 +59,13 @@ button, footer a {
     cursor: pointer;
     padding: 0.5em 1em;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .login button:hover {
     background: white;
     color: black;
+    transition: 0.3s;
 }
 
 .container {
@@ -102,5 +106,6 @@ button, footer a {
 .z-pattern a:hover {
     background: white;
     color: black;
+    transition: 0.3s;
 }
 
