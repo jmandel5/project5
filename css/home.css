@@ -1,3 +1,74 @@
+/* SMACSS */
+
+/* Base Rules */
+button, footer a {
+    background: #3340ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Layout Rules */
+.z-pattern {
+    margin: 0;
+}
+
+.z-pattern main img {
+    padding: 2em;
+}
+
+.title, .login {
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.login label, .login input, .login button {
+    display: block;
+    margin-top: 0.35em;
+}
+
+.login button {
+    margin: 1em auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.z-pattern main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.z-pattern header, .z-pattern footer {
+    position: fixed;
+    width: 95%;
+    left: 2.5%;
+}
+
+.z-pattern header {
+    top: 0;
+}
+
+.z-pattern footer {
+    bottom: 0;
+}
+
+/* Module Rules */
+.z-pattern {
+    background-image: url("../images/brain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .z-pattern footer h2 {
     color: white;
 }
@@ -24,14 +95,11 @@
 }
 
 .z-pattern main img {
-    padding: 2em;
     box-shadow: 2px 9px 9px 4px;
     background-color: rgba(255, 255, 255, 0.75);
 }
 
 .title, .login {
-    margin-top: 1em;
-    padding: 1em;
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 2px 9px 9px 4px;
 }
@@ -40,67 +108,13 @@
     text-align: center;
 }
 
-.login label, .login input, .login button {
-    display: block;
-    margin-top: 0.35em;
-}
-
-.login button {
-    margin: 1em auto;
-}
-
-button, footer a {
-    background: #3340ff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 0.5em 1em;
-    text-decoration: none;
+/* State Rules */
+.z-pattern a:hover {
+    background: white;
+    color: black;
 }
 
 .login button:hover {
     background: white;
     color: black;
 }
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.z-pattern {
-    background-image: url("../images/brain.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-}
-
-.z-pattern main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.z-pattern header, .z-pattern footer {
-    position: fixed;
-    width: 95%;
-    left: 2.5%;
-}
-
-.z-pattern header {
-    top: 0;
-}
-
-.z-pattern footer {
-    bottom: 0;
-}
-
-.z-pattern a:hover {
-    background: white;
-    color: black;
-}
-
