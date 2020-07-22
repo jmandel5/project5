@@ -61,12 +61,10 @@ include "inc/html-top.php";
                 
             </div>
 
-
-
-        <footer>
-            CSC 174: Advanced Front-end Design and Development - Project 2
-        </footer>
     </div> <!-- center container -->
+        <footer>
+            CSC 174: Advanced Front-end Web Design and Development - Project 3
+        </footer>
 </div><!--  background container -->
 <?php include "inc/scripts.php" ?>
 </body>

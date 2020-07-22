@@ -27,7 +27,7 @@ include "inc/html-top.php";
                             Computer Science, but that is no longer possible for scheduling reasons.</p>
                     </div>
                     <div class="link">
-                        <a href="http://csc174.org/lab01/hyang42/index.php" class="button-link">View Personal Website</a>
+                        <a href="hy.php" class="button-link">View Huiyu's Page</a>
                     </div>
 
                 </div>
@@ -47,7 +47,7 @@ include "inc/html-top.php";
                             the University of Rochester studying Cell and Tissue Engineering.</p>
                     </div>
                     <div class="link">
-                        <a href="http://csc174.org/lab01/jmadejsk/">View Personal Website</a>
+                        <a href="joe.php">View Joe's Page</a>
                     </div>
                 </div>
 
@@ -69,17 +69,17 @@ include "inc/html-top.php";
                             languages and astrology myself.</p>
                     </div>
                     <div class="link">
-                        <a href="http://csc174.org/lab01/qmiao3/index.php">View Personal Website</a>
+                        <a href="qi.php">View Qi's Page</a>
                     </div>
                 </div>
             </div>
         </article>
 
-        <footer>
-            CSC 174: Advanced Front-end Design and Development - Project 2
-        </footer>
 
     </div><!-- used for center container -->
+    <footer>
+        CSC 174: Advanced Front-end Design and Development - Project 3
+    </footer>
 </div>
 
 <?php include "inc/scripts.php" ?>

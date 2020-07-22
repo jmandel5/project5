@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* SMACSS */
 
 /* Base Rules */
 button, footer a {
-    background: #3340ff;
-    color: white;
+    background-image: linear-gradient(to left, rgb(250, 109, 113) 0%, rgb(254, 210, 86) 100%);
+    color: black;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -79,7 +80,7 @@ button, footer a {
 }
 
 .z-pattern h1, .z-pattern h2, .z-pattern h3 {
-    font-family: Montserrat, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .z-pattern h1 {
@@ -96,7 +97,7 @@ button, footer a {
 
 .z-pattern label, input, button {
     font-size: large;
-    font-family: Noto Sans JP, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .z-pattern main img {
@@ -120,12 +121,10 @@ button, footer a {
 /* State Rules */
 .z-pattern a:hover {
     background: white;
-    color: black;
     transition: 0.3s;
 }
 
 .login button:hover {
     background: white;
-    color: black;
     transition: 0.3s;
 }
