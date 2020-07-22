@@ -14,19 +14,19 @@ include "inc/html-top.php";
         <div class="container">
 
             <div class="person">
-                <h1>Qi Miao</h1>
                 <figure><img src="images/qi_photo.jpg" alt="Qi's photo"></figure>
+                <h1>Qi Miao</h1>
             </div>
 
            <div class="basic">
 
-                <div class="box1">
+                <div class="box1 one">
                     <h2>Background</h2>
             
                     <p>My name is Qi Miao. I also go by Iris. I am a rising junior, majoring in Computer Science and DigitalMedia Studies. I participate in Modern Language and Culture Undergraduate Council and Active Minds. I am interested in psychology, so I am going to minor in psychology as well. I know some programming languages like JAVA, HTML, CSS, and C, and I have some expereince in coding. I also like studying languages and astrology myself.</p>
                 </div>
 
-                <div class="box1">
+                <div class="box1 two">
                     <h2>Hobbies</h2>
                     <h3>Music</h3>
                     <!--<figure><img src="images/music.jpg" alt="My hobby: Music"></figure>-->
@@ -34,12 +34,8 @@ include "inc/html-top.php";
                     progress.</p>
                 </div>
 
-            </div>
-
-
-           <div class="basic">
                 
-                <div class="box1">
+                <div class="box1 three">
 
                     <h2>Major</h2>
                     <h3>Computer Science & Digital Media Studies</h3>
@@ -49,7 +45,7 @@ include "inc/html-top.php";
 
                 </div>
 
-                <div class="box1">
+                <div class="box1 four">
 
                     <h2>Courses Taken</h2>
                     <ul>
