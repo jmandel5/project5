@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
 
         //$img = $_POST['img'];
 
-		if ($fullName == '') {
+		if ($fullName == '' || $major == '' || $text == '' || $link == '') {
 			// generate error message
 			$error = true;
 
@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
 			$result = mysqli_query($connection, "UPDATE studentlist SET fullName='$fullName', major='$major', minor='$minor', cluster='$cluster', dmajor='$dmajor', text='$text', link='$link' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
-			header("Location: index.php");
+			header("Location: students.php");
 		}
 	} else {
 		// if the 'id' isn't valid, display an error

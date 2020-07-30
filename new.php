@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
     $text = mysqli_real_escape_string($connection, htmlspecialchars($_POST['text']));
     $link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
 
-	if ($fullName == '') {
+	if ($fullName == '' || $major == '' || $text == '' || $link == '') {
 		// generate error message
 		$error = true;
 
@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 		$result = mysqli_query($connection, "INSERT INTO studentlist (fullName, major, minor, cluster, dmajor, text, link) VALUES ('$fullName', '$major', '$minor', '$cluster', '$dmajor', '$text', '$link')");
 
 		// once saved, redirect back to the view page
-		header("Location: index.php");
+		header("Location: students.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form

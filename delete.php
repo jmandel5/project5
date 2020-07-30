@@ -11,10 +11,10 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 	$result = mysqli_query($connection, "DELETE FROM studentlist WHERE id=$id");
 
 	// redirect back to the homepage to see the results
-	header("Location: index.php");
+	header("Location: students.php");
 
 } else {
 	// if id isn't set, or isn't valid, redirect back to homepage
-	header("Location: index.php");
+	header("Location: students.php");
 }
 ?>
