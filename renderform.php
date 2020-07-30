@@ -22,34 +22,34 @@ include "inc/html-top.php";
             </div>
             <div class="form-group">
                 <label for="major">Major</label>
-                <input type="text" class="form-control" id="major"  name="major"  maxlength="100" value="<?php echo $major; ?>">
+                <input type="text" class="form-control <?php if($error) { echo "is-invalid"; } ?>" id="major"  name="major"  maxlength="50" value="<?php echo $major; ?>">
             </div>
             <div class="form-group">
                 <label for="minor">Minor</label>
-                <input type="text" class="form-control" id="minor"  name="minor"  maxlength="100" value="<?php echo $minor; ?>">
+                <input type="text" class="form-control" id="minor"  name="minor"  maxlength="50" value="<?php echo $minor; ?>">
             </div>
             <div class="form-group">
                 <label for="cluster">Cluster</label>
-                <input type="text" class="form-control" id="cluster"  name="cluster"  maxlength="100" value="<?php echo $cluster; ?>">
+                <input type="text" class="form-control" id="cluster"  name="cluster"  maxlength="50" value="<?php echo $cluster; ?>">
             </div>
             <div class="form-group">
                 <label for="dmajor">Double Major</label>
-                <input type="text" class="form-control" id="dmajor"  name="dmajor"  maxlength="100" value="<?php echo $dmajor; ?>">
+                <input type="text" class="form-control" id="dmajor"  name="dmajor"  maxlength="50" value="<?php echo $dmajor; ?>">
             </div>
             <div class="form-group">
-                <label for="text">Text</label>
-                <textarea class="form-control" id="text"  name="text"  rows="3" maxlength="1000"><?php echo $text; ?></textarea>
+                <label for="text">About</label>
+                <textarea class="form-control <?php if($error) { echo "is-invalid"; } ?>" id="text"  name="text"  rows="3" maxlength="1000"><?php echo $text; ?></textarea>
             </div>
             <div class="form-group">
-                <label for="link">Link</label>
-                <input type="text" class="form-control" id="link"  name="link"  maxlength="100" value="<?php echo $link; ?>">
+                <label for="link">Link to Page</label>
+                <input type="text" class="form-control <?php if($error) { echo "is-invalid"; } ?>" id="link"  name="link"  maxlength="100" value="<?php echo $link; ?>">
             </div>
             <div class="form-group">
                 <label for="profileImg">Profile Picture</label>
                 <input type="file" class="form-control-file" id="profileImg"  name="profileImg">
             </div>
 
-            <input class="btn btn-primary" type="submit" name="submit" text="Submit">
+            <input class="btn btn-primary" type="submit" name="submit" value="Submit">
         </form>
     </div>
 </section>
