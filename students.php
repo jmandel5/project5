@@ -3,15 +3,21 @@ $customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
 $bodyCSS = "";
 include "inc/html-top.php";
+
+include ('connect-db.php');
+
+$result = mysqli_query($connection, "SELECT * FROM studentlist");
 ?>
 
 <div id="wrapper" class="background home">
     <div class="container">
         <article>
 
-            <!--start while-->
+            <?php
+            while ($row = mysqli_fetch_array($result)){
+            ?>
 
-            <!--<div class="profile">
+            <div class="profile">
                 <div class="profile_img">
                     <img src="images/hy_photo.jpg" alt="Bonnie's photo">
                 </div>
@@ -28,9 +34,11 @@ include "inc/html-top.php";
                         <a href="hy.php" class="button-link">View Huiyu's Page</a>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <!-- end while -->
+            <?php
+            }
+            ?>
 
             <div class="profile">
                 <div class="profile_img">

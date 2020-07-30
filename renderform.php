@@ -14,7 +14,7 @@ include "inc/html-top.php";
     <div class="container">
         <h1><?php echo $header ?></h1>
 
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <div class="form-group">
                 <label for="fullName">Full Name</label>
@@ -49,7 +49,7 @@ include "inc/html-top.php";
                 <input type="file" class="form-control-file" id="profileImg"  name="profileImg">
             </div>
 
-            <input class="btn btn-primary" type="submit" name="submit" value="Submit">
+            <input class="btn btn-primary" type="submit" name="submit" value="Post!">
         </form>
     </div>
 </section>
