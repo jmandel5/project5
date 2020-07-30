@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Project 3 - DC</title>
+    <title>Project 4 - DC</title>
     <?php
     echo $customCSS;
     if ($useNav) {

@@ -14,9 +14,9 @@ include "inc/html-top.php";
         <div class="login">
             <h2>Login</h2>
             <label for="username">Username</label>
-            <input type="text" placeholder="Username" name="username" required>
+            <input type="text" placeholder="Username" id="username" name="username" required>
             <label for="password">Password</label>
-            <input type="password" placeholder="Password" name="password" required>
+            <input type="password" placeholder="Password" id="password" name="password" required>
             <button type="submit">Login</button>
         </div>
     </div>
@@ -24,7 +24,7 @@ include "inc/html-top.php";
 </header>
 
 <main>
-    <img src="images/uorlogo.png">
+    <img src="images/uorlogo.png" alt="University of Rochester Logo">
 </main>
 
 <footer>

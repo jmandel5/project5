@@ -1,5 +1,5 @@
 <nav class="menu">
-    <h1><a href="index.php">CSC 174</a></h1>
+    <h2><a href="index.php">CSC 174</a></h2>
     <ul>
         <li><a href="students.php">Home</a></li>
         <li><a href="hy.php">Huiyu (Bonnie) Yang</a></li>
