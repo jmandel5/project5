@@ -1,5 +1,5 @@
 <?php
-$customCSS = "<link rel=\"stylesheet\" href=\"css/home.css\">";
+$customCSS = "<link rel='stylesheet' href='css/home.css'>";
 $useNav = false;
 $bodyCSS = "z-pattern";
 include "inc/html-top.php";

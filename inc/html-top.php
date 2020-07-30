@@ -13,7 +13,7 @@
     <?php
     echo $customCSS;
     if ($useNav) {
-        echo "<link rel=\"stylesheet\" href=\"css/navigation.css\">";
+        echo "<link rel='stylesheet' href='css/navigation.css'>";
     }?>
 </head>
 <body class="<?php echo $bodyCSS ?>">
