@@ -11,10 +11,10 @@ include "inc/html-top.php";
 <div class="background home">
     <div class="container">
         <article>
+
+            <!--start while-->
+
             <div class="profile">
-
-                <!--start while-->
-
                 <div class="profile_img">
                     <img src="images/hy_photo.jpg" alt="Bonnie's photo">
                 </div>
@@ -31,10 +31,9 @@ include "inc/html-top.php";
                         <a href="hy.php" class="button-link">View Huiyu's Page</a>
                     </div>
                 </div>
-
-                <!--end while-->
-
             </div>
+
+            <!--end while-->
 
             <div class="profile">
                 <div class="profile_img">
