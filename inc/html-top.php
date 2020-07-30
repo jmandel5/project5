@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20JP">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
 <body class="<?php echo $bodyCSS ?>">
 <?php
