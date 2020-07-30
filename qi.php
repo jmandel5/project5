@@ -1,18 +1,17 @@
 <?php
 $customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
+$bodyCSS = "";
 include "inc/html-top.php";
 ?>
 <div class="background individual">
     <div class="container">
-
         <div class="person">
             <figure><img src="images/qi_photo.jpg" alt="Qi's photo"></figure>
             <h1>Qi Miao</h1>
         </div>
 
        <div class="basic">
-
             <div class="box1 one">
                 <h2>Background</h2>
 
@@ -27,19 +26,15 @@ include "inc/html-top.php";
                 progress.</p>
             </div>
 
-
             <div class="box1 three">
-
                 <h2>Major</h2>
                 <h3>Computer Science & Digital Media Studies</h3>
                 <p>I am pursuing a BA in Computer Science and want to focus on the HCI(Human Computer Interaction) track. I am interested in the realtionship between high-tech and people, so I want to use technologies to make
                 our life a little bit easier if possible.</p>
                 <p>I am also pursuing a degree in Digital Media Studies. The reasons are similar to those for my another degree, BA in Computer Science. Besides, DMS program can offer me some opportunities in practicing and desiging products.</p>
-
             </div>
 
             <div class="box1 four">
-
                 <h2>Courses Taken</h2>
                 <ul>
                     <li>CSC 170 Intro to Web Development</li>
@@ -49,16 +44,15 @@ include "inc/html-top.php";
                     <li>DMS 101 Intro to Digital Media Studies</li>
                     <li>DMS 104 Design in the Digital Age</li>
                 </ul>
-
             </div>
-
         </div>
-
-</div> <!-- center container -->
-    <footer>
-        CSC 174: Advanced Front-end Web Design and Development - Project 3
-    </footer>
+    </div> <!-- center container -->
 </div><!--  background container -->
+
+<footer>
+    CSC 174: Advanced Front-end Web Design and Development - Project 4
+</footer>
+
 <?php include "inc/scripts.php" ?>
 </body>
 

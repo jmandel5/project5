@@ -1,20 +1,17 @@
 <?php
 $customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
+$bodyCSS = "";
 include "inc/html-top.php";
 ?>
 
-<header>
-    <h1>City-team: DC</h1>
-</header>
-
-<div class="background home">
+<div id="wrapper" class="background home">
     <div class="container">
         <article>
 
             <!--start while-->
 
-            <div class="profile">
+            <!--<div class="profile">
                 <div class="profile_img">
                     <img src="images/hy_photo.jpg" alt="Bonnie's photo">
                 </div>
@@ -31,9 +28,9 @@ include "inc/html-top.php";
                         <a href="hy.php" class="button-link">View Huiyu's Page</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <!--end while-->
+            <!-- end while -->
 
             <div class="profile">
                 <div class="profile_img">
@@ -76,13 +73,12 @@ include "inc/html-top.php";
                 </div>
             </div>
         </article>
-
-
     </div><!-- used for center container -->
-    <footer>
-        CSC 174: Advanced Front-end Design and Development - Project 3
-    </footer>
 </div>
+
+<footer>
+    CSC 174: Advanced Front-end Design and Development - Project 4
+</footer>
 
 <?php include "inc/scripts.php" ?>
 </body>

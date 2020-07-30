@@ -1,6 +1,7 @@
 <?php
 $customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
+$bodyCSS = "";
 include "inc/html-top.php";
 ?>
 <div class="background individual">
@@ -56,13 +57,13 @@ include "inc/html-top.php";
 
             </div>
         </div>
-
-
+    </div>
 </div>
-    <footer>
-        CSC 174: Advanced Front-end Web Design and Development - Project 3
-    </footer>
-</div>
+
+<footer>
+    CSC 174: Advanced Front-end Web Design and Development - Project 4
+</footer>
+
 <?php include "inc/scripts.php" ?>
 </body>
 </html>

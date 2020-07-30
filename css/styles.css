@@ -11,6 +11,9 @@ body {
     background-position: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 img {
@@ -58,6 +61,10 @@ li{
 }
 
 /* Layout Rules */
+#wrapper {
+    flex: 1;
+}
+
 .container {
     display: grid;
     width: 80%;
