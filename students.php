@@ -1,5 +1,5 @@
 <?php
-$customCSS = "<link rel=\"stylesheet\" href=\"css/styles.css\">";
+$customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
 include "inc/html-top.php";
 ?>
@@ -12,6 +12,9 @@ include "inc/html-top.php";
     <div class="container">
         <article>
             <div class="profile">
+
+                <!--start while-->
+
                 <div class="profile_img">
                     <img src="images/hy_photo.jpg" alt="Bonnie's photo">
                 </div>
@@ -27,8 +30,10 @@ include "inc/html-top.php";
                     <div class="link">
                         <a href="hy.php" class="button-link">View Huiyu's Page</a>
                     </div>
-
                 </div>
+
+                <!--end while-->
+
             </div>
 
             <div class="profile">
