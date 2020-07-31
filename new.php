@@ -4,8 +4,6 @@ include('renderform.php');
 // connect to the database
 include('connect-db.php');
 
-$msg = "";
-
 // check if the form has been submitted. If it has, start to process the form and save it to the database
 if (isset($_POST['submit'])) {
 
@@ -20,13 +18,6 @@ if (isset($_POST['submit'])) {
     $dmajor = mysqli_real_escape_string($connection, htmlspecialchars($_POST['dmajor']));
     $text = mysqli_real_escape_string($connection, htmlspecialchars($_POST['text']));
     $link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
-
-    if (move_uploaded_file($_FILES['profileImg']['tmp_name'], $target)) {
-        $msg = "Image uploaded successfully";
-
-    } else {
-        $msg = "There was an problem uploading the image";
-    }
 
     if ($fullName == '' || $major == '' || $text == '' || $link == '') {
 		// generate error message
