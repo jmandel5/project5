@@ -19,19 +19,23 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
 
             <div class="profile">
                 <div class="profile_img">
-                    <img src="images/hy_photo.jpg" alt="Bonnie's photo">
+                    <?php
+                    if ($row['img'] != NULL){
+                        echo '<img src="images/"'.$row["img"].'alt='.$row["fullName"].'"photo">';
+                    } else {
+                        echo '<img src="images/defaults/default-profile.jpg" alt="default">';
+                    }
+                    ?>
                 </div>
                 <div class="split">
                     <div>
-                        <h2>Huiyu (Bonnie) Yang</h2>
-                        <h3 class="major">Major in Brain and Cognitive Sciences</h3>
+                        <h2><?php echo $row['fullName'];?></h2>
+                        <h3 class="major">Major in <?php echo $row['major'];?></h3>
                         <h3 class="major">Minor in Clinical Psychology</h3>
-                        <p>My name is Bonnie Yang. I am a senior at the University of Rochester studying Neurobiology and Clinical
-                            Psychology, and taking a cluster in German. Until two months ago, I was also planning to minor in
-                            Computer Science, but that is no longer possible for scheduling reasons.</p>
+                        <p><?php echo $row['text'];?></p>
                     </div>
                     <div class="link">
-                        <a href="hy.php" class="button-link">View Huiyu's Page</a>
+                        <a href="<?php echo $row['link'];?>" class="button-link">View <?php echo $row['fullName'];?>'s Page</a>
                     </div>
                 </div>
             </div>
