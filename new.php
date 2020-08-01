@@ -7,10 +7,10 @@ include('connect-db.php');
 // check if the form has been submitted. If it has, start to process the form and save it to the database
 if (isset($_POST['submit'])) {
 
-    $target = "images/".basename($_FILES['profileImg']['name']);
+    $target = "images/".basename($_FILES['img']['name']);
 
 	// get form data, making sure it is valid
-    $img = mysqli_real_escape_string($connection, htmlspecialchars($_FILES['profileImg']['name']));
+    $img = mysqli_real_escape_string($connection, htmlspecialchars($_FILES['img']['name']));
     $fullName = mysqli_real_escape_string($connection, htmlspecialchars($_POST['fullName']));
     $major = mysqli_real_escape_string($connection, htmlspecialchars($_POST['major']));
     $minor = mysqli_real_escape_string($connection, htmlspecialchars($_POST['minor']));
@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 		$error = true;
 
 		// if either field is blank, display the form again
-        renderForm('', 'Add New Student', $fullName, $major, $minor, $cluster, $dmajor, $text, $link, $error);
+        renderForm($id, 'Add New Student', $img, $fullName, $major, $minor, $cluster, $dmajor, $text, $link, $error);
 
 	} else {
 		// save the data to the database
@@ -35,6 +35,6 @@ if (isset($_POST['submit'])) {
 	}
 } else {
 	// if the form hasn't been submitted, display the form
-	renderForm('','Add New Student','','', '', '', '', '', '', false);
+	renderForm('','Add New Student','','', '', '', '', '', '', '',false);
 }
 ?>

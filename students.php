@@ -21,7 +21,7 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
                 <div class="profile_img">
                     <?php
                     if ($row['img'] != NULL){
-                        echo '<img src="images/'.$row["img"].'" alt="'.$row["fullName"].' photo">';
+                        echo '<img src="images/'.$row["img"].'" alt="'.$row["fullName"].' photo" width="268">';
                     } else {
                         echo '<img src="images/defaults/default-profile.jpg" alt="default">';
                     }
@@ -38,6 +38,8 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
                         <a href="<?php echo $row['link'];?>" class="button-link">View <?php echo $row['fullName'];?>'s Page</a>
                     </div>
                 </div>
+                <a href="edit.php?id=<?php echo $row['id'];?>">Edit</a>
+                <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["fullName"];?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
             </div>
 
             <?php

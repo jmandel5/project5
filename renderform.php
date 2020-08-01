@@ -1,6 +1,6 @@
 <?php
 // creates the edit record form
-function renderForm($id, $header, $fullName, $major, $minor, $cluster, $dmajor, $text, $link, $error) {
+function renderForm($id, $header, $img, $fullName, $major, $minor, $cluster, $dmajor, $text, $link, $error) {
 ?>
 
 <?php
@@ -45,8 +45,8 @@ include "inc/html-top.php";
                 <input type="text" class="form-control <?php if($error) { echo "is-invalid"; } ?>" id="link"  name="link"  maxlength="100" value="<?php echo $link; ?>">
             </div>
             <div class="form-group">
-                <label for="profileImg">Profile Picture</label>
-                <input type="file" class="form-control-file" id="profileImg"  name="profileImg">
+                <label for="img">Profile Picture</label>
+                <input type="file" class="form-control-file" id="img"  name="img" value="<?php echo $img;?>" accept="image/x-png,image/gif,image/jpeg">
             </div>
 
             <input class="btn btn-primary" type="submit" name="submit" value="Post!">
