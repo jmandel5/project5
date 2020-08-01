@@ -10,6 +10,7 @@ if (isset($_POST['submit'])) {
 	if (is_numeric($_POST['id'])) {
 		// get form data, making sure it is valid
 		$id = $_POST['id'];
+        $img = mysqli_real_escape_string($connection, htmlspecialchars($_FILES['img']['name']));
         $fullName = mysqli_real_escape_string($connection, htmlspecialchars($_POST['fullName']));
         $major = mysqli_real_escape_string($connection, htmlspecialchars($_POST['major']));
         $minor = mysqli_real_escape_string($connection, htmlspecialchars($_POST['minor']));
@@ -18,18 +19,16 @@ if (isset($_POST['submit'])) {
         $text = mysqli_real_escape_string($connection, htmlspecialchars($_POST['text']));
         $link = mysqli_real_escape_string($connection, htmlspecialchars($_POST['link']));
 
-        //$img = $_POST['img'];
-
 		if ($fullName == '' || $major == '' || $text == '' || $link == '') {
 			// generate error message
 			$error = true;
 
 			//error, display form
-			renderForm($id, 'Update ' . $fullName . ' Information', $fullName, $major, $minor, $cluster, $dmajor, $text, $link, $error);
+			renderForm($id, 'Update ' . $fullName . ' Information', $img, $fullName, $major, $minor, $cluster, $dmajor, $text, $link, $error);
 
 		} else {
 			// save the data to the database
-			$result = mysqli_query($connection, "UPDATE studentlist SET fullName='$fullName', major='$major', minor='$minor', cluster='$cluster', dmajor='$dmajor', text='$text', link='$link' WHERE id='$id'");
+			$result = mysqli_query($connection, "UPDATE studentlist SET img='$img', fullName='$fullName', major='$major', minor='$minor', cluster='$cluster', dmajor='$dmajor', text='$text', link='$link' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
 			header("Location: students.php");
@@ -50,16 +49,17 @@ if (isset($_POST['submit'])) {
 		// check that the 'id' matches up with a row in the databse
 		if($row) {
 			// get data from db
+            $img = $row['img'];
 			$fullName = $row['fullName'];
 			$major = $row['major'];
 			$minor = $row['minor'];
 			$cluster = $row['cluster'];
 			$dmajor = $row['dmajor'];
 			$text = $row['text'];
-			$link =$row['link'];
+			$link = $row['link'];
 
 			// show form
-			renderForm($id, 'Update ' . $fullName . ' Information', $fullName, $major, $minor, $cluster, $dmajor, $text, $link, false);
+			renderForm($id, 'Update ' . $fullName . ' Information', $img, $fullName, $major, $minor, $cluster, $dmajor, $text, $link, false);
 		} else {
 			// if no match, display result
 			echo "No results!";
