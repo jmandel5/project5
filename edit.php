@@ -16,6 +16,8 @@ $errors = array(
 if (isset($_POST['submit'])) {
 	// confirm that the 'id' value is a valid integer before getting the form data
 	if (is_numeric($_POST['id'])) {
+	    $filename = '';
+
         if(isset($_FILES["img"]) && $_FILES["img"]["error"] == 0){
             $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
             $filename = $_FILES["img"]["name"];
@@ -33,11 +35,11 @@ if (isset($_POST['submit'])) {
             // Verify MYME type of the file
             if(in_array($filetype, $allowed)){
                 // Check whether file exists before uploading it
-                if(file_exists("upload/" . $filename)){
-                    $errors["img"] = true;
-                } else{
-                    move_uploaded_file($_FILES["img"]["tmp_name"], getcwd() . "\images\upload\\" . $filename);
-                }
+                do{
+                    $filename = uniqid() . '.' . array_keys($allowed, $filetype)[0];
+                } while (file_exists("upload/" . $filename));
+
+                move_uploaded_file($_FILES["img"]["tmp_name"], getcwd() . "\images\upload\\" . $filename);
             } else{
                 $errors["img"] = true;
             }
@@ -49,13 +51,13 @@ if (isset($_POST['submit'])) {
             $errors["img"] = true;
         }
 
-		$id = $_POST['id'];
+        $id = $_POST['id'];
         $img = '';
         $result = mysqli_query($connection, "SELECT * FROM studentlist WHERE id=$id");
         $row = mysqli_fetch_array( $result );
 
         if ($_FILES["img"]["name"] != '') {
-            $img = mysqli_real_escape_string($connection, htmlspecialchars($_FILES['img']['name']));
+            $img = mysqli_real_escape_string($connection, htmlspecialchars($filename));
         }
         else if (!$_POST['removeImg'] && $row['img'] != '')
         {
