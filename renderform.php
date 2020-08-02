@@ -17,37 +17,37 @@ include "inc/html-top.php";
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <div class="form-group">
                 <label for="fullName">Full Name*</label>
-                <input type="text" class="form-control <?php if($errors["fullName"]) { echo "is-invalid"; } ?>" id="fullName" name="fullName" maxlength="100" value="<?php echo $fullName; ?>" required>
+                <input type="text" class="form-control <?php if($errors["fullName"]) { echo "is-invalid"; } ?>" placeholder="John Doe" id="fullName" name="fullName" maxlength="100" value="<?php echo $fullName; ?>" required>
             </div>
 
             <div class="form-group">
                 <label for="major">Major*</label>
-                <input type="text" class="form-control <?php if($errors["major"]) { echo "is-invalid"; } ?>" id="major"  name="major"  maxlength="50" value="<?php echo $major; ?>" required>
+                <input type="text" class="form-control <?php if($errors["major"]) { echo "is-invalid"; } ?>" placeholder="Computer Science" id="major"  name="major"  maxlength="50" value="<?php echo $major; ?>" required>
             </div>
 
             <div class="form-group">
                 <label for="dmajor">Double Major</label>
-                <input type="text" class="form-control <?php if($errors["dmajor"]) { echo "is-invalid"; } ?>" id="dmajor"  name="dmajor"  maxlength="50" value="<?php echo $dmajor; ?>">
+                <input type="text" class="form-control <?php if($errors["dmajor"]) { echo "is-invalid"; } ?>" placeholder="Digital Media Studies" id="dmajor"  name="dmajor"  maxlength="50" value="<?php echo $dmajor; ?>">
             </div>
 
             <div class="form-group">
                 <label for="minor">Minor</label>
-                <input type="text" class="form-control" id="minor"  name="minor"  maxlength="50" value="<?php echo $minor; ?>">
+                <input type="text" class="form-control" placeholder="Psychology" id="minor"  name="minor"  maxlength="50" value="<?php echo $minor; ?>">
             </div>
 
             <div class="form-group">
                 <label for="cluster">Cluster</label>
-                <input type="text" class="form-control" id="cluster"  name="cluster"  maxlength="50" value="<?php echo $cluster; ?>">
+                <input type="text" class="form-control" placeholder="Applied Economics" id="cluster"  name="cluster"  maxlength="50" value="<?php echo $cluster; ?>">
             </div>
 
             <div class="form-group">
                 <label for="text">About*</label>
-                <textarea class="form-control <?php if($errors["text"]) { echo "is-invalid"; } ?>" id="text"  name="text"  rows="3" maxlength="1000" required><?php echo $text; ?></textarea>
+                <textarea class="form-control <?php if($errors["text"]) { echo "is-invalid"; } ?>" placeholder="Enter text here..." id="text"  name="text"  rows="3" maxlength="1000" required><?php echo $text; ?></textarea>
             </div>
 
             <div class="form-group">
                 <label for="link">Link to Page</label>
-                <input type="text" class="form-control" id="link"  name="link"  maxlength="100" value="<?php echo $link; ?>">
+                <input type="text" class="form-control" placeholder="https://example.com/" id="link"  name="link"  maxlength="100" value="<?php echo $link; ?>">
             </div>
 
             <div class="form-group">
