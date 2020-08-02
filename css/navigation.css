@@ -1,75 +1,53 @@
 /* SMACSS */
 
-/* Base Rules */
-header {
-    margin-top: 70px;
-}
-
 /* Layout Rules */
 .menu a {
-    padding: 1em;
+    text-decoration: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 0 10px;
 }
 
 .menu {
-    overflow: hidden;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 10;
 }
 
 .menu h1, .menu ul {
     margin: 0 auto;
-    padding: 0;
-}
-
-.menu, .menu h1, .menu ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
 }
 
 /* Module Rules */
-.menu {
-    background: black;
-}
-
-.menu li {
-    list-style-type: none;
-}
 
 .menu h1, .menu a {
-    color: white;
     font-family: Oswald, serif;
     font-size: large;
     font-weight: bold;
-    text-decoration: none;
+    color: white;
+}
+
+.nav-home{
+    border-right: solid 1px white;
 }
 
 /* State Rules */
+.menu h1:hover,
 .menu a:hover {
-    background-color: white;
-    color: black;
+    color: white!important;
 }
 
 .menu .is-current {
-    background-color: white;
-    color: black;
+    color: white!important;
 }
 
-@media (max-width: 684px) {
-    header {
-        margin-top: 104px;
+@media (max-width: 992px) {
+    .nav-home{
+        border-right: none;
     }
-
-    .menu h1, .menu ul {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .menu a {
+    .menu li{
         padding: 0;
-        margin: 1em;
     }
 }
