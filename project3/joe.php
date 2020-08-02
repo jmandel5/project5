@@ -1,5 +1,5 @@
 <?php
-$customCSS = "<link rel='stylesheet' href='css/styles.css'>";
+$customCSS = "<link rel='stylesheet' href='../css/styles.css'>";
 $useNav = true;
 $bodyCSS = "";
 include "inc/html-top.php";
