@@ -162,6 +162,7 @@ li{
 .profile_img img {
     border-radius: .8rem;
     border: 1px solid #dddddd;
+    max-width: 270px;
 }
 
 .view-page {

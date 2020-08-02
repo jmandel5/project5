@@ -23,17 +23,34 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
                 <div class="profile_img">
                     <?php
                     if ($row['img'] != NULL){
-                        echo '<img src="images/'.$row["img"].'" alt="'.$row["fullName"].' photo" width="268">';
+                        echo '<img src="images/'.$row["img"].'" alt="'.$row["fullName"].' photo" class="img-thumbnail">';
                     } else {
-                        echo '<img src="images/defaults/default-profile.jpg" alt="default">';
+                        echo '<img src="images/defaults/profile.png" alt="default">';
                     }
                     ?>
                 </div>
                 <div class="split">
                     <div>
                         <h2><?php echo $row['fullName'];?></h2>
-                        <h3 class="major">Major in <?php echo $row['major'];?></h3>
-                        <h3 class="major">Minor in Clinical Psychology</h3>
+                        <?php
+                            if ($row['major'] != '' && $row['dmajor'] != '')
+                            {
+                                echo '<h3 class="major\">Double Major in ' . $row['major'] . ' and ' . $row['dmajor'] .'</h3>';
+                            }
+                            else if($row['major'] != '')
+                            {
+                                echo '<h3 class="major\">Major in ' . $row['major'] . '</h3>';
+                            }
+                            if($row['minor'] != '')
+                            {
+                                echo '<h3 class="major\">Minor in ' . $row['minor'] . '</h3>';
+                            }
+                            if($row['cluster'] != '')
+                            {
+                                echo '<h3 class="major\">Cluster in ' . $row['cluster'] . '</h3>';
+                            }
+                        ?>
+
                         <p><?php echo $row['text'];?></p>
                     </div>
                     <div class="link">
@@ -52,47 +69,6 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
             <?php
             }
             ?>
-
-            <div class="profile">
-                <div class="profile_img">
-                    <img src="images/joe_photo.jpg" alt="Joe's photo">
-                </div>
-                <div class="split">
-                    <div>
-                        <h2>Joe Madejski</h2>
-                        <h3 class="major">Major in Cell and Tissue Engineering</h3>
-                        <h3 class="major">Cluster in Abnormal Psychology</h3>
-                        <p>My name is Joe Madejski. I was born in Western NY and have lived there since. I am the youngest of his
-                            siblings, and therefore the best of them. A graduate of Albion Central Schools, I am currently attending
-                            the University of Rochester studying Cell and Tissue Engineering.</p>
-                    </div>
-                    <div class="view-page">
-                        <a href="joe.php">View Joe's Page</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="profile">
-                <div class="profile_img">
-                    <img src="images/qi_photo.jpg" alt="Qi's photo">
-                </div>
-                <div class="split">
-                    <div>
-                        <h2>Qi Miao</h2>
-                        <h3 class="major">Major in Computer Science</h3>
-                        <h3 class="major">Major in Digital Media Studies</h3>
-                        <p>My name is Qi Miao. I also go by Iris. I am a rising junior, majoring in Computer Science and Digital
-                            Media Studies. I participate in Modern Language and Culture Undergraduate Council and Active Minds. I am
-                            interested in psychology, so I am going to minor in psychology as well. I know some programming
-                            languages like JAVA, HTML, CSS, and C, and I have some expereince in coding. I also like studying
-                            languages and astrology myself.</p>
-                    </div>
-                    <div class="view-page">
-                        <a href="qi.php">View Qi's Page</a>
-                    </div>
-                </div>
-            </div>
         </article>
     </div><!-- used for center container -->
 </div>
