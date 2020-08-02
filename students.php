@@ -11,6 +11,8 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
 
 <div id="wrapper" class="background home">
     <div class="container">
+
+        <h1>Students</h1>
         <article>
 
             <?php
@@ -35,11 +37,16 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
                         <p><?php echo $row['text'];?></p>
                     </div>
                     <div class="link">
-                        <a href="<?php echo $row['link'];?>" class="button-link">View <?php echo $row['fullName'];?>'s Page</a>
+                        <div class="edit-delete">
+                            <a href="edit.php?id=<?php echo $row['id'];?>">Edit</a>
+                            <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["fullName"];?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
+                        </div>
+                        <div class="view-page">
+                            <a href="<?php echo $row['link'];?>" class="button-link">View <?php echo $row['fullName'];?>'s Page</a>
+                        </div>
                     </div>
+
                 </div>
-                <a href="edit.php?id=<?php echo $row['id'];?>">Edit</a>
-                <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["fullName"];?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
             </div>
 
             <?php
@@ -59,7 +66,7 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
                             siblings, and therefore the best of them. A graduate of Albion Central Schools, I am currently attending
                             the University of Rochester studying Cell and Tissue Engineering.</p>
                     </div>
-                    <div class="link">
+                    <div class="view-page">
                         <a href="joe.php">View Joe's Page</a>
                     </div>
                 </div>
@@ -81,7 +88,7 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist");
                             languages like JAVA, HTML, CSS, and C, and I have some expereince in coding. I also like studying
                             languages and astrology myself.</p>
                     </div>
-                    <div class="link">
+                    <div class="view-page">
                         <a href="qi.php">View Qi's Page</a>
                     </div>
                 </div>

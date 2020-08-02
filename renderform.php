@@ -49,7 +49,10 @@ include "inc/html-top.php";
                 <input type="file" class="form-control-file" id="img"  name="img" value="<?php echo $img;?>" accept="image/x-png,image/gif,image/jpeg">
             </div>
 
-            <input class="btn btn-primary" type="submit" name="submit" value="Post!">
+            <input class="submit btn btn-primary" type="submit" name="submit" value="Post!">
+            <div>
+                <a href="students.php" class="btn btn-danger btn-block">Cancel</a>
+            </div>
         </form>
     </div>
 </section>
