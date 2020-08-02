@@ -51,15 +51,13 @@ if (isset($_POST['submit'])) {
 
 		$id = $_POST['id'];
         $img = '';
-
-        $id = $_GET['id'];
         $result = mysqli_query($connection, "SELECT * FROM studentlist WHERE id=$id");
         $row = mysqli_fetch_array( $result );
 
         if ($_FILES["img"]["name"] != '') {
             $img = mysqli_real_escape_string($connection, htmlspecialchars($_FILES['img']['name']));
         }
-        else if ($row['img'] != '')
+        else if (!$_POST['removeImg'] && $row['img'] != '')
         {
             $img = $row['img'];
         }

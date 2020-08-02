@@ -13,7 +13,7 @@ include "inc/html-top.php";
 <section id="wrapper" class="section">
     <div class="container">
         <h1><?php echo $header ?></h1>
-        <form action="" method="post" enctype="multipart/form-data">
+        <form action="<?php echo basename($_SERVER["SCRIPT_FILENAME"], '.php') . ".php" ?>" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <div class="form-group">
                 <label for="fullName">Full Name*</label>
@@ -52,8 +52,15 @@ include "inc/html-top.php";
 
             <div class="form-group">
                 <label for="img">Profile Picture</label>
-                <input type="file" class="form-control-file <?php if($errors["img"]) { echo "is-invalid"; } ?>" id="img"  name="img" value="<?php echo $img;?>" accept="image/x-png,image/gif,image/jpeg">
+                <input type="file" class="form-control-file <?php if($errors["img"]) { echo "is-invalid"; } ?>" id="img"  name="img" accept="image/x-png,image/gif,image/jpeg">
             </div>
+
+            <?php if ($img != '') { ?>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="removeImg"  name="removeImg">
+                    <label for="removeImg">Remove Old Profile Picture</label>
+                </div>
+            <?php }?>
 
             <p>Fields marked with * are required.</p>
 
