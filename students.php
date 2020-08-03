@@ -6,7 +6,7 @@ include "inc/html-top.php";
 
 include ('connect-db.php');
 
-$result = mysqli_query($connection, "SELECT * FROM studentlist");
+$result = mysqli_query($connection, "SELECT * FROM studentlist ORDER BY fullName");
 ?>
 
 <div id="wrapper" class="background home">
