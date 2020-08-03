@@ -23,7 +23,7 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist ORDER BY fullName
                 <div class="profile_img">
                     <?php
                     if ($row['img'] != NULL){
-                        echo '<img src="images/upload/'.$row["img"].'" alt="'.$row["fullName"].' photo" class="img-thumbnail">';
+                        echo '<img src="images/upload/'.$row["img"].'" alt="'.$row["fullName"].' photo">';
                     } else {
                         echo '<img src="images/defaults/profile.png" alt="default">';
                     }
