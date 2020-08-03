@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
                     $filename = uniqid() . '.' . array_keys($allowed, $filetype)[0];
                 } while (file_exists("upload/" . $filename));
 
-                move_uploaded_file($_FILES["img"]["tmp_name"], getcwd() . "\images\upload\\" . $filename);
+                move_uploaded_file($_FILES["img"]["tmp_name"], "images/upload/" . $filename);
             } else{
                 $errors["img"] = true;
             }
