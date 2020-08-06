@@ -11,9 +11,20 @@
             <li class="nav-home nav-item">
                 <a class="nav-link" href="students.php">Students</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="new.php">Add New Student</a>
-            </li>
+            <?php if(isset($_SESSION['username'])) { ?>
+                <li class="nav-item nav-home">
+                    <a class="nav-link" href="new.php">Add New Student</a>
+                </li>
+            <?php } ?> 
+            <?php if(isset($_SESSION['username'])) { ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Logout</a>
+                </li>
+            <?php } else { ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+            <?php } ?> 
             <!--<li><a href="hy.php">Huiyu (Bonnie) Yang</a></li>
             <li><a href="joe.php">Joe Madejski</a></li>
             <li><a href="qi.php">Qi Miao</a></li>-->

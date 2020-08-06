@@ -12,12 +12,7 @@ include "inc/html-top.php";
         </div>
 
         <div class="login">
-            <h2>Login</h2>
-            <label for="username">Username</label>
-            <input type="text" placeholder="Username" id="username" name="username" required>
-            <label for="password">Password</label>
-            <input type="password" placeholder="Password" id="password" name="password" required>
-            <button type="submit">Login</button>
+            <a href="login.php">Click here to login.</a>
         </div>
     </div>
 

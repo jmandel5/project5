@@ -2,7 +2,7 @@
 /* SMACSS */
 
 /* Base Rules */
-button, footer a {
+.login a, footer a {
     background-image: linear-gradient(to left, rgb(250, 109, 113) 0%, rgb(254, 210, 86) 100%);
     color: black;
     border: none;
@@ -27,12 +27,12 @@ button, footer a {
     padding: 1em;
 }
 
-.login label, .login input, .login button {
+.login label, .login input, .login a {
     display: block;
     margin-top: 0.35em;
 }
 
-.login button {
+.login a {
     margin: 1em auto;
 }
 
@@ -95,7 +95,7 @@ button, footer a {
     font-size: x-large;
 }
 
-.z-pattern label, input, button {
+.z-pattern label, input, a {
     font-size: large;
     font-family: 'Roboto', sans-serif;
 }
@@ -105,7 +105,7 @@ button, footer a {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.title, .login {
+.title {
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 4px 9px 9px 4px rgba(0, 0, 0, 0.69);
 }
@@ -114,7 +114,7 @@ button, footer a {
     text-align: center;
 }
 
-.login button {
+.login a {
     transition: 0.3s;
 }
 
@@ -124,7 +124,7 @@ button, footer a {
     transition: 0.3s;
 }
 
-.login button:hover {
+.login a:hover {
     background: white;
     transition: 0.3s;
 }
