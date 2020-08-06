@@ -14,7 +14,7 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist ORDER BY fullName
 <div id="wrapper" class="background home">
     <div class="container">
 
-        <h1>Students</h1>
+        <h1>Student Directory</h1>
 
         <article>
 
