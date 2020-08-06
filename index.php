@@ -12,7 +12,8 @@ include "inc/html-top.php";
         </div>
 
         <div class="login">
-            <a href="login.php">Click here to login.</a>
+            <div>Are you a CSC 174 Student?</div>
+            <a href="login.php">Login Here</a>
         </div>
     </div>
 
@@ -25,7 +26,11 @@ include "inc/html-top.php";
 <footer>
     <div class="container">
         <aside>
-            <h2>Advanced Front End Development</h2>
+            <h2>About This Site</h2>
+            <p> This is a site that introduces the students of CSC 174. 
+            You can learn more about them including their major, hobbies, 
+            and see their personal site. </p> 
+            
         </aside>
 
         <h2><a href="students.php">View Our Page</a></h2>
