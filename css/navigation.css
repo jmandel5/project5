@@ -21,8 +21,16 @@
 }
 
 /* Module Rules */
-
-.menu h1, .menu a {
+nav {
+    background-color: #00192f;
+}
+.logo {
+    text-decoration: none;
+    background-color: #00ade7;
+    border-radius: 5px;
+    padding: 5px;
+}
+menu h1, .menu a {
     font-family: Oswald, serif;
     font-size: large;
     font-weight: bold;

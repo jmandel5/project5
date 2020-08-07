@@ -11,7 +11,7 @@ include "inc/html-top.php";
         <header>
             <div class="container">
                 <div class="title">
-                    <h1>CSC 174</h1>
+                    <h1> <a href="#"> CSC 174</a> </h1>
                     <h2>Fall 2020</h2>
                 </div>
 

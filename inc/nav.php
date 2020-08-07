@@ -1,4 +1,4 @@
-<nav class=" menu navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class=" menu navbar navbar-expand-lg navbar-dark bg-color">
     <div class="logo"><a href="index.php">CSC 174</a></div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
