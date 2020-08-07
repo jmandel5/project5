@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20JP">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
     <?php
     echo $customCSS;
     if ($useNav) {
         echo "<link rel='stylesheet' href='css/navigation.css'>";
-    }?>
+    }
+    if ($useBS) {
+        echo "<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous'>";
+    }
+    ?>
+
 </head>
 <body class="<?php echo $bodyCSS ?>">
 <?php

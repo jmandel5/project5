@@ -3,6 +3,7 @@
 <?php
 $customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
+$useBS = true;
 $bodyCSS = "";
 include "inc/html-top.php";
 
