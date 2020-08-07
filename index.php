@@ -19,7 +19,7 @@ include "inc/html-top.php";
                     <!-- if logged in, show welcome message. Else, show login link -->
                     <?php if(isset($_SESSION['username'])) { ?>
                         <!-- welcome message with username -->
-                        <div>Welcome, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>.</div>
+                        <div >Welcome, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>.</div>
                         <a href="logout.php">Logout</a>
                     <?php } else { ?>
                         <div>Are you a CSC 174 Student?</div>

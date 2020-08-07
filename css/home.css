@@ -1,21 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
 /* SMACSS */
 
 /* Base Rules */
 .z-pattern {
 	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-family: 'Noto Sans JP' , sans-serif;
+	font-size: 55px;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	background-color: #00ade7;
+	border-radius: 10px;
+	padding-left: 14px;
+	padding-right: 6px;
+}
+h2 {
+	font-family: 'Roboto' , sans-serif;
+}
+a {
+	text-decoration: none;
 }
 /* Layout Rules */
 header .container, footer .container, main {
 	margin: 0 auto;
 	width: 95%;
-	max-width: 1200px;
+	max-width: 1100px;
 }
 header, footer {
 	position: fixed;
 	left: 0;
 	width: 100%;
-	background-color: #001328;
+	background-color: #00192f;
+	box-shadow: 0px 0px 20px 20px rgba(00,19, 47,1);
 }
 header { top: 0; }
 footer { bottom: 0; }
@@ -24,18 +43,71 @@ header .container, footer .container {
 	justify-content: space-between;
 	align-items: center;
 }
+footer aside {
+	flex-basis: 70%;
+}
 
 /* Center Z-pattern */
 .z-pattern main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 97vh;
+}
+.z-pattern main img {
+	background-color: rgba(00, 186, 243, 0.8);
+	box-shadow: 0px 0px 20px 20px rgba(00,186, 243,0.8);
+	border-radius: 10px;
 }
 .z-pattern {
 	background-image: url("../images/brain.png");
-    background-size: cover;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
-    background-position: center;
-    background-position: top 80px bottom 80px;
+    background-position: center; 
+}
+/* Top Left */
+.title {
+	display: flex;
+	align-items: center;
+}
+.title h1 { 
+	padding-right: 20px; 
+
+}
+.title h2 { 
+	color: #00c4fd;
+	padding: 20px; }
+
+/* Top Right */
+.login {
+	display: flex;
+	align-items: center;
+	font-size: 15pt;
+}
+.login div{
+	margin-right: 30px;
+}
+/* Bottom Left */
+footer aside {
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding-right: 20px;
+}
+/* Bottom Right */
+footer a {
+	font-size: 15pt;
+}
+/* Modules */
+.login a, footer a {
+    background-image: linear-gradient(to left, rgb(250, 109, 113) 0%, rgb(254, 210, 86) 100%);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 1em;
+    font-weight: 500;
+}
+/* States */
+.login a:hover, footer a:hover {
+	background: white;
 }

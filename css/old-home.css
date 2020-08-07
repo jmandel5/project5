@@ -62,11 +62,6 @@
 .z-pattern h2 {
     margin-bottom: 1.4em;
 }
-
-.z-pattern footer {
-    bottom: 0;
-}
-
 /* Module Rules */
 .z-pattern {
     background-image: url("../images/brain.png");
