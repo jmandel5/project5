@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <?php
 $customCSS = "<link rel='stylesheet' href='css/home.css'>";
 $useNav = false;
@@ -14,8 +16,15 @@ include "inc/html-top.php";
                 </div>
 
                 <div class="login">
-                    <div>Are you a CSC 174 Student?</div>
-                    <a href="login.php">Login Here</a>
+                    <!-- if logged in, show welcome message. Else, show login link -->
+                    <?php if(isset($_SESSION['username'])) { ?>
+                        <!-- welcome message with username -->
+                        <div>Welcome, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>.</div>
+                        <a href="logout.php">Logout</a>
+                    <?php } else { ?>
+                        <div>Are you a CSC 174 Student?</div>
+                        <a href="login.php">Login Here</a>
+                    <?php } ?> 
                 </div>  
             </div>
         </header>

@@ -11,11 +11,13 @@
             <li class="nav-home nav-item">
                 <a class="nav-link" href="students.php">Students</a>
             </li>
+            <!-- If logged in, give option to add new student -->
             <?php if(isset($_SESSION['username'])) { ?>
                 <li class="nav-item nav-home">
                     <a class="nav-link" href="new.php">Add New Student</a>
                 </li>
             <?php } ?> 
+            <!-- If logged in, show logout link. Else, show login button -->
             <?php if(isset($_SESSION['username'])) { ?>
                 <li class="nav-item">
                     <a class="nav-link" href="logout.php">Logout</a>
