@@ -1,2 +1,2 @@
 # City-team: DC
-Team Members: Desmond Lai, Joshua Choi, Evan Pollack
+Team Members: Joo Eon Park, Leah Goodwin, Jack Mandell
