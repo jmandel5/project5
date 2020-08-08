@@ -119,9 +119,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <input type="password" name="password" class="form-control">
                     <span><?php echo $password_err; ?></span>
                 </div>
-                <div class="form-group">
-                    <input type="submit" value="Login">
+                <div class="form-group last-line">
                     <a href="index.php" class="can">Cancel</a>
+                    <input type="submit" value="Login" class="float-right">
                 </div>
                 <!-- <p>Don't have an account? <a href="register.php">Sign up now</a>.</p> -->
             </form>
