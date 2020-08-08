@@ -88,34 +88,44 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
  
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>    
+    <title>Login</title> 
+
 </head>
-<body>
-    <div class="wrapper">
+<body> -->
+
+<?php
+	$customCSS = "<link rel='stylesheet' href='css/login.css'>";
+	$useNav = false;
+	$useBS = true;
+	$bodyCSS = "b-login";
+	include "inc/html-top.php";
+?>
+	
         <div class="login">
+        	<div class="container-fluid">
             <h2>Login</h2>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-                <div class="<?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                <div class="<?php echo (!empty($username_err)) ? 'has-error' : ''; ?>" class="form-group">
                     <label>Username</label>
-                    <input type="text" name="username" value="<?php echo $username; ?>">
+                    <input type="text" name="username" value="<?php echo $username; ?>" class="form-control">
                     <span><?php echo $username_err; ?></span>
                 </div>    
-                <div class="<?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                <div class="<?php echo (!empty($password_err)) ? 'has-error' : ''; ?>" class="form-group">
                     <label>Password</label>
-                    <input type="password" name="password">
+                    <input type="password" name="password" class="form-control">
                     <span><?php echo $password_err; ?></span>
                 </div>
-                <div>
+                <div class="form-group">
                     <input type="submit" value="Login">
-                    <a href="index.php">Cancel</a>
+                    <a href="index.php" class="can">Cancel</a>
                 </div>
                 <!-- <p>Don't have an account? <a href="register.php">Sign up now</a>.</p> -->
             </form>
         </div>
-    </div>  
+      </div>
 </body>
 </html>

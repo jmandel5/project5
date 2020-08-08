@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+/* SMACSS */
+
+/* Base Rules */
+/* Layout Rules */
+
+/* Modules */
+.b-login {
+	background-color: #00192f;
+	font-size: 16pt;
+	height: 100vh;
+  	display: flex;
+}
+.login {
+	background-color: #00ade7;
+	padding: 30px;
+	border-radius: 10px;
+	margin: auto;
+}
+form div:last-of-type {
+	margin-top: 20px;
+}
+.can {
+	color: #00192f;
+	text-decoration: none;
+}
+/* States */
