@@ -92,8 +92,7 @@ li{
 
 .view-page {
     padding: 20px;
-    margin-right: 10px;
-    margin-top: 80px;
+    margin: auto;
 }
 
 .view-page a{
@@ -102,6 +101,7 @@ li{
 }
 
 .edit-delete{
+    margin: auto;
     text-align: center;
 }
 
@@ -148,6 +148,14 @@ li{
     grid-area: one;
 }
 
+.col{
+    display: grid;
+}
+
+.link{
+    display: flex;
+    flex-wrap: nowrap;
+}
 /* Module Rules */
 .bg, .renderform {
     background-color: rgb(0,173,231,.65);
