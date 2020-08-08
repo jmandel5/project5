@@ -130,8 +130,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="muted-text">* required fields</div>
             <div class="last-line">
-                <input type="submit" value="Submit">
-                <a href="index.php" class="can float-right">Cancel</a>
+                <a href="index.php" class="can">Cancel</a>
+                <input type="submit" value="Submit"  class="float-right">
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
