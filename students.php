@@ -57,16 +57,19 @@ $result = mysqli_query($connection, "SELECT * FROM studentlist ORDER BY fullName
                             <p><?php echo $row['text'];?></p>
                         </div>
                         <div class="link">
-                            <div class="edit-delete">
-                                <!-- If logged in, show edit/delete functions -->
-                                <?php if(isset($_SESSION['username'])) { ?>
-                                    <a href="edit.php?id=<?php echo $row['id'];?>">Edit</a>
-                                    <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["fullName"];?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
-                                <?php } ?>    
-                            </div>
                             <div class="view-page">
                                 <a href="<?php echo $row['link'];?>" class="button-link">View <?php echo $row['fullName'];?>'s Page</a>
                             </div>
+                            <div class="edit-delete">
+                                <!-- If logged in, show edit/delete functions -->
+                                <?php if(isset($_SESSION['username'])) { ?>
+                                    <div class="col">
+                                    <a href="edit.php?id=<?php echo $row['id'];?>">Edit</a>
+                                    <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["fullName"];?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
+                                    </div>
+                                <?php } ?>    
+                            </div>
+                            
                         </div>
 
                     </div>
