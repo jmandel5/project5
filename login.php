@@ -120,8 +120,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <span><?php echo $password_err; ?></span>
                 </div>
                 <div class="form-group last-line">
-                    <a href="index.php" class="can">Cancel</a>
-                    <input type="submit" value="Login" class="float-right">
+                    <input type="submit" value="Login">
+                    <a href="index.php" class="can float-right">Cancel</a>
+                    
                 </div>
                 <!-- <p>Don't have an account? <a href="register.php">Sign up now</a>.</p> -->
             </form>
