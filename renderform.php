@@ -10,7 +10,7 @@ function renderForm($id, $header, $img, $fullName, $major, $minor, $cluster, $dm
 $customCSS = "<link rel='stylesheet' href='css/styles.css'>";
 $useNav = true;
 $useBS = true;
-$bodyCSS = "";
+$bodyCSS = "renderform";
 include "inc/html-top.php";
 ?>
 

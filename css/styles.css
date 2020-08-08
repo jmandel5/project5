@@ -12,8 +12,8 @@ body {
     flex-direction: column;
     
 }
-.bg {
-	background-color: #5ac2e6;
+.bg, .renderform {
+	background-color: rgb(0,173,231,.65);
 }
 img {
     height: 270px;
