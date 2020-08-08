@@ -12,9 +12,7 @@ body {
     flex-direction: column;
     
 }
-.bg, .renderform {
-	background-color: rgb(0,173,231,.65);
-}
+
 img {
     height: 270px;
     margin: 15px;
@@ -151,6 +149,9 @@ li{
 }
 
 /* Module Rules */
+.bg, .renderform {
+    background-color: rgb(0,173,231,.65);
+}
 .profile {
     border-radius: 0.8rem;
     box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.1);
