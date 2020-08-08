@@ -4,14 +4,14 @@
 
 /* Base Rules */
 /* Layout Rules */
-
-/* Modules */
 .b-login {
 	background-color: #00192f;
 	font-size: 16pt;
 	height: 100vh;
   	display: flex;
 }
+/* Modules */
+
 .login {
 	background-color: #00ade7;
 	padding: 30px;
