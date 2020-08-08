@@ -22,10 +22,13 @@ a {
 	text-decoration: none;
 }
 /* Layout Rules */
-header .container, footer .container, main {
+.container {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 header, footer {
 	position: fixed;
@@ -36,11 +39,6 @@ header, footer {
 }
 header { top: 0; }
 footer { bottom: 0; }
-header .container, footer .container { 
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 footer aside {
 	flex-basis: 70%;
 }
